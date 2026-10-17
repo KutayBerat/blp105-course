@@ -48,4 +48,4 @@ GitHub hesabı
 
 ## Ödev
 
-[lab.md](lab.md) içindeki alıştırmaları tamamla. Teslim biçimi derste duyurulur.
+[lab.md](lab.md) içindeki alıştırmaları tamamla. Bu hafta notlu ödev yok; notlu ödevler Hafta 4'te başlar ([ODEVLER.md](../../ODEVLER.md)).

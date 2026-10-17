@@ -65,4 +65,9 @@ Veriyi şemaya taşıma
 
 ## Ödev
 
-Bu haftanın ödevi ayrıca eklenecek.
+**Ödev 6 — Veriyi taşıma (DML)** (100 puan). Yönerge: [odev.md](odev.md)
+
+- PR ile teslim: dal `odev-06`, reviewer **gizemturker**
+- **Kâğıt rapor Hafta 11 dersinde elden teslim edilir**
+
+Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

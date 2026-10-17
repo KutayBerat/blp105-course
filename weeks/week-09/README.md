@@ -52,4 +52,9 @@ SQL Style Guide, "Create syntax" bölümü (adlandırma ve kısıt yazımı): ht
 
 ## Ödev
 
-Bu haftanın ödevi ayrıca eklenecek.
+**Ödev 5 — Şema kurma (DDL)** (100 puan). Yönerge: [odev.md](odev.md)
+
+- PR ile teslim: dal `odev-05`, reviewer **gizemturker**
+- **Kâğıt rapor Hafta 10 dersinde elden teslim edilir**
+
+Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

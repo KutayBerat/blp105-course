@@ -1,6 +1,6 @@
 # Hafta 4 ders notu: SELECT ve WHERE
 
-> Haftanın ders notu. Slaytların slayt sırasına göre metin sürümü ayrıca var: [slides-text.md](slides-text.md).
+> Haftanın ders notu ve metin sürümü (ekran okuyucu ve büyütme dostu).
 > Buradaki bütün sorgular `robot_fleet` ve `llm_ops` veritabanlarında çalışır ve gösterilen sonuçlar gerçek çıktılardır. Kurulum: [data/README.md](../../data/README.md)
 
 ## 1. Başlarken: bu sorguyu zaten anlıyorsun

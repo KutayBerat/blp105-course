@@ -62,5 +62,9 @@ PostgreSQL Tutorial, Aggregate Functions: https://www.postgresql.org/docs/curren
 
 ## Ödev
 
-1. [lab.md](lab.md) föyünü doldur ve `lab-sheets/week-05.md` olarak commit et.
-2. Hafta 4'te indirdiğin ham veriye bak ve şu üç soruyu cevapla: kaç satır var, hangi sütunlarda eksik veri var, hangi sütuna göre gruplamak anlamlı olur? Cevapları `SCENARIO.md` içine yaz.
+**Ödev 2 — Gruplama ve NULL** (100 puan). Yönerge: [odev.md](odev.md)
+
+- PR ile teslim: dal `odev-02`, reviewer **gizemturker**
+- **Kâğıt rapor Hafta 6 dersinde elden teslim edilir**
+
+Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

@@ -1,6 +1,6 @@
 # Hafta 6: Çoklu tablo sorguları (JOIN)
 
-Durum: Yakında
+Durum: Yayında
 
 ## Bu hafta ne işliyoruz
 
@@ -19,6 +19,15 @@ Durum: Yakında
 - "Hiç görev almamış robotlar" tipi soruları `LEFT JOIN` ile cevaplayabilirsin
 - JOIN sonrası bir toplamın neden şiştiğini fark edip düzeltebilirsin
 - `count(*)` ile `count(sutun)` farkının JOIN'de neden kritik olduğunu açıklayabilirsin
+
+## Bu haftanın dosyaları
+
+- [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
+- [lab.md](lab.md) — laboratuvar föyü, 15 soru
+- [cozumler.sql](cozumler.sql) — çözüm anahtarı (lab sonrası)
+- [odev.md](odev.md) — **Ödev 3** yönergesi
+
+Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir.
 
 ## Bu haftanın verisi
 
@@ -55,7 +64,7 @@ Tüm terimler: [GLOSSARY.md](../../GLOSSARY.md)
 
 ## Laboratuvar
 
-JOIN ve `GROUP BY` birleşik alıştırmalar. "Hiç görev almamış robotlar", "hiç çağrılmamış modeller" tipi sorular. Fan-out tuzağını gösteren bir alıştırma.
+Kolaydan zora 15 soru: [lab.md](lab.md). JOIN ve `GROUP BY` birleşik alıştırmalar, "hiç görev almamış robotlar" tipi sorular, fan-out tuzağı.
 
 ## Okuma
 
@@ -73,4 +82,6 @@ JOIN sorguları
 
 ## Ödev
 
-Bu haftanın ödevi ayrıca eklenecek.
+**Ödev 3 — JOIN.** Yönerge: [odev.md](odev.md)
+
+PR ile teslim + kâğıt rapor derste. Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

@@ -73,5 +73,9 @@ Gerçek veri kaynağı, ham CSV
 
 ## Ödev
 
-1. [lab.md](lab.md) föyünü doldur ve kendi proje reponda `lab-sheets/week-04.md` olarak commit et.
-2. Senaryon için bulduğun gerçek veri kaynağından ham CSV'yi indir, reponda `data/raw/` klasörüne koy ve nereden aldığını `SCENARIO.md` içinde belirt.
+**Ödev 1 — SELECT ve WHERE** (100 puan). Yönerge: [odev.md](odev.md)
+
+- PR ile teslim: dal `odev-01`, reviewer **gizemturker**
+- **Kâğıt rapor Hafta 5 dersinde elden teslim edilir**
+
+Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

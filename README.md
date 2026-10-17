@@ -19,11 +19,15 @@ Her hafta klasöründe şunları bulursun:
 | `ders-notu.md` | Haftanın ders notu, örneklerle ve çalıştırılabilir sorgularla |
 | `lab.md` | Laboratuvar föyü, kolaydan zora sorular |
 | `cozumler.sql` / `cozumler.py` | Çözüm anahtarı, lab sonrası yayımlanır |
+| `odev.md` | O haftanın ödev yönergesi |
 | `slides-text.md` | Slaytların metin sürümü (ekran okuyucu ve büyütme dostu) |
 
 ## Hızlı bağlantılar
 
 - [Ders amacı, çıktılar, değerlendirme: SYLLABUS.md](SYLLABUS.md)
+- [Ödevler ve teslim kuralları: ODEVLER.md](ODEVLER.md)
+- [Notlandırma rubrikleri: RUBRIK.md](RUBRIK.md)
+- [Şablonlar (rapor, PR, proje README): templates/](templates/README.md)
 - [Örnek veritabanları ve kurulumu: data/README.md](data/README.md)
 - [Kaynak kitaplar ve bağlantılar: RESOURCES.md](RESOURCES.md)
 - [Kurulum rehberi: SETUP.md](SETUP.md)
@@ -40,7 +44,7 @@ Bu dönem ders **12 hafta** işlenir.
 | 3 | [Veritabanı temel kavramları ve mimari](weeks/week-03/README.md) | Kura, repo, senaryo kartı | Yayında |
 | 4 | [Ortam kurulumu, SELECT ve WHERE](weeks/week-04/README.md) | Gerçek veri kaynağı, ham CSV | Yayında |
 | 5 | [SQL fonksiyonları ve gruplama (GROUP BY)](weeks/week-05/README.md) | İlk analiz sorguları | Yayında |
-| 6 | [Çoklu tablo sorguları (JOIN)](weeks/week-06/README.md) | JOIN sorguları | Yakında |
+| 6 | [Çoklu tablo sorguları (JOIN)](weeks/week-06/README.md) | JOIN sorguları | Yayında |
 | 7 | [E-R modeli ve normalizasyon](weeks/week-07/README.md) | ERD ve normalizasyon planı | Yakında |
 | 8 | [Ara sınav, mini proje sunumu](weeks/week-08/README.md) | Veri hikayesi, ERD, plan | Yakında |
 | 9 | [DDL: tablolar, anahtarlar ve kısıtlar](weeks/week-09/README.md) | Şema (`CREATE TABLE`) | Yakında |
@@ -48,7 +52,18 @@ Bu dönem ders **12 hafta** işlenir.
 | 11 | [Görünümler, güvenlik ve YZ bileşeni](weeks/week-11/README.md) | Görünümler, roller, YZ bileşeni | Yakında |
 | 12 | [Final: jüri önünde sunumlar](weeks/week-12/README.md) | Ana proje teslimi | Yakında |
 
-Sıralamanın mantığı: **önce sorgula, sonra tasarla.** Hafta 4-6 boyunca hazır bir veritabanına soru sorarsın. Ne sorduğunu gördükten sonra, Hafta 7'de kendi modelini kurar, Hafta 9'da onu gerçek bir şemaya dönüştürürsün.
+## Ödevler
+
+Dönem boyunca **7 notlu ödev** var (Hafta 4'ten itibaren). Her ödev iki parça halinde teslim edilir:
+
+1. **GitHub'da PR:** kendi deponda `odev-NN` dalı açar, çalışır, PR açar ve beni reviewer eklersin
+2. **Kâğıt rapor:** bir sayfalık raporu bir sonraki derste elden verirsin
+
+Ayrıntı: [ODEVLER.md](ODEVLER.md) · Notlandırma: [RUBRIK.md](RUBRIK.md) · Şablonlar: [templates/](templates/README.md)
+
+## Sıralamanın mantığı
+
+**Önce sorgula, sonra tasarla.** Hafta 4-6 boyunca hazır bir veritabanına soru sorarsın. Ne sorduğunu gördükten sonra, Hafta 7'de kendi modelini kurar, Hafta 9'da onu gerçek bir şemaya dönüştürürsün.
 
 ## Dil
 

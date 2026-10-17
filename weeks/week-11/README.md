@@ -71,4 +71,9 @@ Görünümler, güvenlik rolleri, YZ bileşeni
 
 ## Ödev
 
-Bu haftanın ödevi ayrıca eklenecek.
+**Ödev 7 — Görünüm, güvenlik ve YZ bileşeni** (100 puan). Yönerge: [odev.md](odev.md)
+
+- PR ile teslim: dal `odev-07`, reviewer **gizemturker**
+- **Kâğıt rapor Hafta 12 dersinde elden teslim edilir**
+
+Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

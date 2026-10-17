@@ -45,14 +45,18 @@ Haftalık konu listesi için [README.md](README.md) tablosuna bak.
 | Bileşen | Ağırlık | İçerik |
 |---|---|---|
 | Ara sınav | %30 | Hafta 8, mini proje ve sunum |
-| Proje | %30 | Haftalık commit'ler ve lab föyleri |
+| Proje | %30 | 7 ödevin ortalaması (en düşük bir not atılır) |
 | Yarıyıl sonu | %40 | Ana proje ve sektör jürisi önünde 5 dakikalık sunum |
 
 Yazılı sınav yok: sorgu yazar, şema kurar, sonra savunursun.
 
+Ödev teslim kuralları, takvim ve geç teslim politikası: **[ODEVLER.md](ODEVLER.md)**
+Her bileşenin ayrıntılı değerlendirme ölçütleri: **[RUBRIK.md](RUBRIK.md)**
+
 ## Kurallar
 
 - Her hafta commit at. Son gece atılan tek dev commit yerine haftalar boyunca ilerleyen bir geçmiş istiyorum.
+- Ödevler PR ile teslim edilir, kâğıt rapor derste elden verilir. İkisi de zorunludur.
 - Tablo ve sütun adları İngilizce, küçük harf ve `snake_case`: `sensor_readings`, `battery_level`.
 - YZ kullanmak serbest, beyan zorunlu. Lab föyünün YZ kullanım beyanı bölümüne hangi aracı, hangi prompt ile kullandığını yaz.
 - Her projede en az bir gerçek veri kaynağı olacak.

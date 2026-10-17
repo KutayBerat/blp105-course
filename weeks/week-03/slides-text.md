@@ -221,7 +221,7 @@ Bugün hiçbir şey kurmuyoruz. Her şey tarayıcıda, github.com üzerinde.
 
 Adım tamam sayılır: kendi hesabında `db-project` reposu açıldığında.
 
-Ayrıntılı rehber: [Kendi proje reponu oluştur](../../guides/create-your-repo.md)
+Ayrıntılı rehber: [Ödev teslim sistemi — kendi reponu kur, PR aç](../../ODEVLER.md)
 
 ### Slayt 21 · Canlı kura: üç çark, tek bir sen
 

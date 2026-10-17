@@ -53,6 +53,10 @@ Kura, repo, senaryo kartı
 
 ## Ödev
 
+**Ödev 0 — Repo kurulumu ve senaryo kartı** (notlandırılmaz). Yönerge: [odev.md](odev.md)
+
+Teslim kuralları: [ODEVLER.md](../../ODEVLER.md)
+
 - `SCENARIO.md` içindeki beş soruyu tamamla.
 - Senaryon için bir gerçek veri kaynağı adayı bul ve linkini `SCENARIO.md` içine yaz. Fikirler [RESOURCES.md](../../RESOURCES.md) sonundaki "Veri kaynağı bulmak için" bölümünde.
 - Ek olarak, ilk iki haftanın algoritma konularını pekiştiren bir ödev var, GitHub'a değil, derse elden getireceksin: [odev-algoritma.md](odev-algoritma.md). Teslim 5 gün sonra.
