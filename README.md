@@ -18,9 +18,8 @@ Her hafta klasöründe şunları bulursun:
 | `README.md` | Haftanın özeti: konular, kazanımlar, terimler, okuma, ödev |
 | `ders-notu.md` | Haftanın ders notu, örneklerle ve çalıştırılabilir sorgularla |
 | `lab.md` | Laboratuvar föyü, kolaydan zora sorular |
-| `odev.md` | Haftanın ödevi, varsa |
-| `odev.md` | O haftanın ödev yönergesi |
-| `slides-text.md` | Slaytların metin sürümü (ekran okuyucu ve büyütme dostu) |
+| `odev.md` | O haftanın ödev yönergesi, varsa |
+| `slides-text.md` | Slaytların metin sürümü, varsa (ekran okuyucu ve büyütme dostu) |
 
 ## Hızlı bağlantılar
 
@@ -41,9 +40,9 @@ Bu dönem ders **12 hafta** işlenir.
 |---|---|---|---|
 | 1 | [Algoritmik düşünme: problemden adıma](weeks/week-01/README.md) | GitHub hesabı | Yayında |
 | 2 | [Döngüler ve temel algoritmalar](weeks/week-02/README.md) | - | Yayında |
-| 3 | [Veritabanı temel kavramları ve mimari](weeks/week-03/README.md) | Kura, repo, senaryo kartı | Yayında |
-| 4 | [Ortam kurulumu, SELECT ve WHERE](weeks/week-04/README.md) | Gerçek veri kaynağı, ham CSV | Yayında |
-| 5 | [SQL fonksiyonları ve gruplama (GROUP BY)](weeks/week-05/README.md) | İlk analiz sorguları | Yayında |
+| 3 | [Veritabanı temel kavramları ve mimari](weeks/week-03/README.md) | Kura ve proje deposu | Yayında |
+| 4 | [Ortam kurulumu, SELECT ve WHERE](weeks/week-04/README.md) | İlk sorgular | Yayında |
+| 5 | [SQL fonksiyonları ve gruplama (GROUP BY)](weeks/week-05/README.md) | **Ödev 1** | Yayında |
 | 6 | [Çoklu tablo sorguları (JOIN)](weeks/week-06/README.md) | JOIN sorguları | Yayında |
 | 7 | [E-R modeli ve normalizasyon](weeks/week-07/README.md) | ERD ve normalizasyon planı | Yakında |
 | 8 | [Ara sınav, mini proje sunumu](weeks/week-08/README.md) | Veri hikayesi, ERD, plan | Yakında |
@@ -54,12 +53,14 @@ Bu dönem ders **12 hafta** işlenir.
 
 ## Ödevler
 
-Dönem boyunca **7 notlu ödev** var (Hafta 4'ten itibaren). Her ödev iki parça halinde teslim edilir:
+Dönem boyunca **6 notlu ödev** var. Her ödev iki parça halinde teslim edilir:
 
 1. **GitHub'da PR:** kendi deponda `odev-NN` dalı açar, çalışır, PR açar ve beni reviewer eklersin
-2. **Kâğıt rapor:** bir sayfalık raporu bir sonraki derste elden verirsin
+2. **Kâğıt rapor:** tek sayfalık raporu teslim günündeki derste elden verirsin
 
-Ayrıntı: [ODEVLER.md](ODEVLER.md) · Notlandırma: [RUBRIK.md](RUBRIK.md) · Şablonlar: [templates/](templates/README.md)
+**Sıradaki: [Ödev 1, ilk beş haftanın tamamı](weeks/week-05/odev.md). Son teslim 23 Ekim 2026 Cuma, ders saatinden önce.**
+
+Ayrıntı: [ODEVLER.md](ODEVLER.md), notlandırma: [RUBRIK.md](RUBRIK.md), şablonlar: [templates/](templates/README.md)
 
 ## Sıralamanın mantığı
 

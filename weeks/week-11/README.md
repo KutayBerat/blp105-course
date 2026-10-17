@@ -71,9 +71,11 @@ Görünümler, güvenlik rolleri, YZ bileşeni
 
 ## Ödev
 
-**Ödev 6 — Görünüm, güvenlik ve YZ bileşeni** (100 puan). Yönerge: [odev.md](odev.md)
+Bu ödev henüz açılmadı, tarihi dersinde duyurulacak. Aktif ödev: [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma.
+
+**Ödev 6: Görünüm, güvenlik ve YZ bileşeni** (100 puan). Yönerge: [odev.md](odev.md)
 
 - PR ile teslim: dal `odev-06`, reviewer **gizemturker**
 - **Kâğıt rapor Hafta 12 dersinde elden teslim edilir**
 
-Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)
+Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

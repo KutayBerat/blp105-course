@@ -22,9 +22,9 @@ Durum: Yayında
 
 ## Bu haftanın dosyaları
 
-- [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
-- [lab.md](lab.md) — laboratuvar föyü, 15 soru
-- [odev.md](odev.md) — **Ödev 2** yönergesi
+- [ders-notu.md](ders-notu.md): haftanın ders notu, çalıştırılabilir örneklerle
+- [lab.md](lab.md): laboratuvar föyü, 15 soru
+- [odev.md](odev.md): **Ödev 2** yönergesi
 
 Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir.
 
@@ -81,6 +81,8 @@ JOIN sorguları
 
 ## Ödev
 
-**Ödev 2 — JOIN.** Yönerge: [odev.md](odev.md)
+Bu ödev henüz açılmadı, tarihi dersinde duyurulacak. Aktif ödev: [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma.
 
-PR ile teslim + kâğıt rapor derste. Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)
+**Ödev 2: JOIN.** Yönerge: [odev.md](odev.md)
+
+PR ile teslim + kâğıt rapor derste. Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

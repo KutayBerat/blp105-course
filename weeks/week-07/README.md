@@ -69,9 +69,11 @@ ERD ve normalizasyon planı
 
 ## Ödev
 
-**Ödev 3 — ERD ve normalizasyon** (100 puan). Yönerge: [odev.md](odev.md)
+Bu ödev henüz açılmadı, tarihi dersinde duyurulacak. Aktif ödev: [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma.
+
+**Ödev 3: ERD ve normalizasyon** (100 puan). Yönerge: [odev.md](odev.md)
 
 - PR ile teslim: dal `odev-03`, reviewer **gizemturker**
 - **Kâğıt rapor Hafta 8 dersinde elden teslim edilir**
 
-Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)
+Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

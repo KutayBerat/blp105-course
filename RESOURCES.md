@@ -14,7 +14,9 @@ Dönem boyunca en çok başvuracağın kaynak, https://www.postgresql.org/docs/c
 
 | Konu | Hafta | Sayfa |
 |---|---|---|
+| Getting Started (sunucu, istemci, `psql`) | 3 | https://www.postgresql.org/docs/current/tutorial-start.html |
 | Querying a Table (SELECT, WHERE) | 4 | https://www.postgresql.org/docs/current/tutorial-select.html |
+| SELECT komut referansı (çalışma sırası) | 4 | https://www.postgresql.org/docs/current/sql-select.html |
 | Aggregate Functions (tutorial) | 5 | https://www.postgresql.org/docs/current/tutorial-agg.html |
 | Aggregate Functions (tam liste) | 5 | https://www.postgresql.org/docs/current/functions-aggregate.html |
 | Date/Time Functions (`date_trunc`, `EXTRACT`, `now`) | 5 | https://www.postgresql.org/docs/current/functions-datetime.html |
@@ -32,6 +34,11 @@ Dönem boyunca en çok başvuracağın kaynak, https://www.postgresql.org/docs/c
 | Database Roles | 11 | https://www.postgresql.org/docs/current/user-manag.html |
 | Row Security Policies | 11 | https://www.postgresql.org/docs/current/ddl-rowsecurity.html |
 | JSON Types | 11 | https://www.postgresql.org/docs/current/datatype-json.html |
+
+## Hafta 1-2: algoritma ve Python
+
+- **Python Tutor**, kodunu yapıştırıp satır satır çalıştırıyorsun, her adımda değişkenlerin değerini görüyorsun. İz sürme (trace table) sorularında önce kağıtta çöz, sonra buradan kontrol et: https://pythontutor.com/
+- **Python resmi öğreticisi**, 4. bölüm akış kontrolü (`if`, `for`, `range`), 5. bölüm veri yapıları (liste, sözlük): https://docs.python.org/3/tutorial/
 
 ## Uygulama ve pratik
 
@@ -55,6 +62,9 @@ Dönem boyunca en çok başvuracağın kaynak, https://www.postgresql.org/docs/c
 
 - **Mermaid ERD sözdizimi**, ERD'ni markdown içinde çizip GitHub'da otomatik render ettirmek için: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
 - **pgvector**, PostgreSQL için vektör benzerlik araması eklentisi (L2, kosinüs, iç çarpım mesafeleri, HNSW ve IVFFlat indeksleri): https://github.com/pgvector/pgvector
+- **GitHub Docs, pull request oluşturma**, resmi adımlar: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+- **Learn Git Branching**, dal açmayı ve birleştirmeyi görselleştirerek öğreten interaktif bir oyun, açık kaynak: https://learngitbranching.js.org/
+- **explain.dalibo.com**, `EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON)` çıktısını okunur bir ağaca çeviriyor (Hafta 11): https://explain.dalibo.com/
 - **GitHub Docs**: https://docs.github.com/
 
 ## Veri kaynağı bulmak için

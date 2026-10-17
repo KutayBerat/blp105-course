@@ -495,7 +495,7 @@ Not: `SUM` da NULL'ları atlar, ama orada fark görünmez, çünkü toplama sıf
 
 `coalesce(sütun, yedek_değer)`: sütun doluysa onu, boşsa yedek değeri döndürür. Soldan sağa bakar, ilk dolu değeri verir.
 
-**Kozmetik kullanım** — raporda boşluk görünmesin:
+**Kozmetik kullanım:** raporda boşluk görünmesin:
 
 ```sql
 SELECT name,
@@ -512,7 +512,7 @@ FROM robots WHERE id IN (8, 9, 10);
  Kartal-04 | Şarj       | Emre
 ```
 
-**Anlamlı kullanım** — bir önceki bölümdeki kararı sorguya yazmak:
+**Anlamlı kullanım:** bir önceki bölümdeki kararı sorguya yazmak:
 
 ```sql
 SELECT round(avg(coalesce(battery_level, 0)), 1) AS sifir_sayarak,
@@ -547,8 +547,8 @@ Gerçek örnek: başarı oranını toplam deneme sayısına bölüyorsun; hiç d
 
 | | Ne yapar |
 |---|---|
-| `COALESCE` | NULL'ı değere çevirir — boşluğu kapatır |
-| `NULLIF` | Değeri NULL'a çevirir — zararlı değeri etkisizleştirir |
+| `COALESCE` | NULL'ı değere çevirir, boşluğu kapatır |
+| `NULLIF` | Değeri NULL'a çevirir, zararlı değeri etkisizleştirir |
 
 ---
 

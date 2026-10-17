@@ -164,10 +164,10 @@ Ocak ayında, sektörden bir jürinin önünde, kendi projeni sunacaksın.
 
 | Haftalar | Aşama | İçerik |
 |---|---|---|
-| 3–5 | Sor | Kura, gerçek veri, ilk sorgular, gruplama |
-| 6–8 | Tasarla | E-R modeli, normalizasyon, ara sınav sunumu |
-| 9–12 | İnşa et | Tablolar, veri taşıma, JOIN, görünümler, YZ |
-| 13–14 | Sahne | Güvenlik, portfolyo, jüri sunumu |
+| 3-5 | Sor | Kura, gerçek veri, ilk sorgular, gruplama |
+| 6-8 | Tasarla | E-R modeli, normalizasyon, ara sınav sunumu |
+| 9-12 | İnşa et | Tablolar, veri taşıma, JOIN, görünümler, YZ |
+| 13-14 | Sahne | Güvenlik, portfolyo, jüri sunumu |
 
 Her hafta derste bir kavram öğreniyorsun, aynı kavramı kendi projene uyguluyorsun ve commit ediyorsun.
 
@@ -205,10 +205,10 @@ Oyun PIN'i derste sesli okunur ve tahtaya yazılır.
 
 | Süre | Adım | İçerik |
 |---|---|---|
-| 0–25 dk | Repo | Şablondan kendi projeni oluştur |
-| 25–60 dk | Kura | Üç çark, senin senaryon |
-| 60–85 dk | Senaryo kartı | SCENARIO.md, repo adı, lab föyü |
-| 85–100 dk | Kayıt | Form ve çıkış bileti |
+| 0-25 dk | Repo | Şablondan kendi projeni oluştur |
+| 25-60 dk | Kura | Üç çark, senin senaryon |
+| 60-85 dk | Senaryo kartı | SCENARIO.md, repo adı, lab föyü |
+| 85-100 dk | Kayıt | Form ve çıkış bileti |
 
 Bugün hiçbir şey kurmuyoruz. Her şey tarayıcıda, github.com üzerinde.
 
@@ -221,7 +221,7 @@ Bugün hiçbir şey kurmuyoruz. Her şey tarayıcıda, github.com üzerinde.
 
 Adım tamam sayılır: kendi hesabında `db-project` reposu açıldığında.
 
-Ayrıntılı rehber: [Ödev teslim sistemi — kendi reponu kur, PR aç](../../ODEVLER.md)
+Ayrıntılı rehber: [Ödev teslim sistemi: kendi reponu kur, PR aç](../../ODEVLER.md)
 
 ### Slayt 21 · Canlı kura: üç çark, tek bir sen
 

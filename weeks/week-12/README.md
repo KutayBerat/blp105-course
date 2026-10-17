@@ -1,4 +1,4 @@
-# Hafta 12: Final — jüri önünde sunumlar
+# Hafta 12: Final, jüri önünde sunumlar
 
 Durum: Yakında
 

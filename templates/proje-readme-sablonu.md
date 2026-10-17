@@ -92,7 +92,7 @@ CREATE INDEX ... ;
 
 ## Yapay zeka bileşeni
 
-[jsonb / pgvector / text-to-SQL — hangisini seçtin, neden, nasıl çalışıyor, sınırları ne?]
+[jsonb / pgvector / text-to-SQL, hangisini seçtin, neden, nasıl çalışıyor, sınırları ne?]
 
 ## Demo
 

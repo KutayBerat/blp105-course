@@ -1,7 +1,8 @@
-# Bu haftanın görevi Ödev 1'in içinde
+# Bu haftanın konusu Ödev 1'in içinde
 
-Hafta 4'ün SELECT/WHERE lab soruları, dönemin ilk ödevine taşındı.
+Hafta 4'ün lab föyündeki 15 SELECT/WHERE sorusu, dönemin ilk ödevinin 3. bölümü.
 
-→ **[Ödev 1 — Haftalar 1-5: Temeller](../week-05/odev.md)** (Bölüm 1)
+Yönerge: **[Ödev 1: İlk beş haftanın tamamı](../week-05/odev.md)**
+Lab föyü yerinde duruyor: [lab.md](lab.md)
 
-Lab soruları yerinde duruyor: [lab.md](lab.md)
+Son teslim: 23 Ekim 2026 Cuma, ders saatinden önce.

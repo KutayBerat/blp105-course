@@ -1,13 +1,13 @@
 <!--
 Bu dosyayı kendi reponda .github/pull_request_template.md olarak kaydet.
 Sonra her PR açtığında bu form kendiliğinden karşına gelir.
-Başlık biçimi: Ödev N — Ad Soyad — Öğrenci No
+Başlık biçimi: Ödev N, Ad Soyad, Öğrenci No
 -->
 
 ## Ödev bilgisi
 
-- **Ödev no:** Ödev
-- **Hafta:**
+- **Ödev no:**
+- **Kapsadığı haftalar:**
 - **Kullandığım veritabanı:** `robot_fleet` / `llm_ops`
 - **Çözdüğüm soru sayısı:** __ / __
 - **Bonus:** denedim / denemedim
@@ -20,6 +20,8 @@ Başlık biçimi: Ödev N — Ad Soyad — Öğrenci No
 
 - `odevler/odev-NN/cozumler.sql`
 - `odevler/odev-NN/rapor.md`
+
+<!-- Ödev 1'de dosyalar bolum1.py, bolum2.md, bolum3.sql, bolum4.sql ve rapor.md -->
 
 ## Takıldığım yer
 

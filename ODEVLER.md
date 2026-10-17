@@ -1,6 +1,6 @@
 # Ödevler ve Teslim Kuralları
 
-Bu derste **7 notlu ödev** ve bir hazırlık ödevi var. Hepsi aynı şekilde teslim edilir: GitHub'da kendi deponda bir **Pull Request (PR)** açarsın, ayrıca **bir sayfalık raporu derste elden teslim edersin.**
+Bu derste **6 notlu ödev** var. Hepsi aynı şekilde teslim edilir: GitHub'da kendi deponda bir **Pull Request (PR)** açarsın, ayrıca **bir sayfalık raporu derste elden teslim edersin.**
 
 İki teslimin ikisi de zorunludur. PR'ı açıp raporu getirmezsen ödev eksik sayılır; raporu getirip PR açmazsan da öyle.
 
@@ -18,9 +18,9 @@ Neden PR? Çünkü sektörde kod böyle teslim edilir. Kimse ana dala doğrudan 
 
 ---
 
-## 2. Bir kerelik kurulum (Hafta 3'te yapılır)
+## 2. Bir kerelik kurulum
 
-Bunu dönem başında **bir kez** yaparsın, sonra her ödevde tekrar etmezsin.
+Bunu **bir kez** yaparsın, sonra her ödevde tekrar etmezsin. Kurulum notlandırılmıyor, sadece teslim yolu. Henüz yapmadıysan Ödev 1'den önce bitir.
 
 ### 2.1 Depoyu oluştur
 
@@ -47,17 +47,22 @@ Bunu açarsan `main`'e doğrudan yazamazsın, kendini PR açmaya zorlarsın. Ger
 ```
 senin-repon/
 ├── README.md              projenin tanıtımı
-├── SCENARIO.md            senaryo kartın
+├── SCENARIO.md            senaryo kartın (Ödev 2'den itibaren)
 ├── data/
 │   ├── raw/               indirdiğin ham veri (CSV)
 │   └── seed/              kendi veritabanına yüklediğin veri
 ├── migrations/            şema dosyaların (Hafta 9'dan itibaren)
 ├── queries/               analiz sorguların
 ├── odevler/
-│   ├── odev-01/
-│   │   ├── cozumler.sql   sorguların
+│   ├── odev-01/           dönemin ilk ödevi, dört bölüm
+│   │   ├── bolum1.py      algoritma ve izleme
+│   │   ├── bolum2.md      veritabanı kavramları
+│   │   ├── bolum3.sql     SELECT ve WHERE
+│   │   ├── bolum4.sql     gruplama ve NULL
 │   │   └── rapor.md       raporun (yazdırıp derse getireceğin)
 │   ├── odev-02/
+│   │   ├── cozumler.sql
+│   │   └── rapor.md
 │   └── ...
 └── docs/
     └── erd.md             ERD'n (Hafta 7'den itibaren)
@@ -101,7 +106,7 @@ GitHub'da repona git, çıkan **Compare & pull request** düğmesine bas.
 
 | Alan | Ne yazacaksın |
 |---|---|
-| Başlık | `Ödev 1 — Ad Soyad — Öğrenci No` |
+| Başlık | `Ödev 1 / Ad Soyad / Öğrenci No` |
 | base (hedef) | `main` |
 | compare (kaynak) | `odev-01` |
 | Açıklama | PR şablonunu doldur ([templates/pull_request_template.md](templates/pull_request_template.md)) |
@@ -129,20 +134,20 @@ Bir sayfa, en fazla iki. Elle doldurulacak alanlar var, bilgisayarda doldurup ya
 
 | Ödev | Kapsam | Konu | PR son tarihi | Rapor teslimi |
 |---|---|---|---|---|
-| **Ödev 1** | Hafta 1-5 | Kurulum, SELECT/WHERE, gruplama ve NULL | [tarih] | [tarih] dersinde |
-| **Ödev 2** | Hafta 6 | JOIN | [tarih] | Hafta 7 dersinde |
-| **Ödev 3** | Hafta 7 | ERD ve normalizasyon | [tarih] | Hafta 8 dersinde |
-| — | Hafta 8 | Ara sınav haftası, ödev yok | | |
-| **Ödev 4** | Hafta 9 | Şema kurma (DDL) | [tarih] | Hafta 10 dersinde |
-| **Ödev 5** | Hafta 10 | Veriyi taşıma (DML) | [tarih] | Hafta 11 dersinde |
-| **Ödev 6** | Hafta 11 | Görünüm, güvenlik, YZ bileşeni | [tarih] | Hafta 12 dersinde |
-| Final | Hafta 12 | Ana proje ve sunum | [tarih] | Sunum günü |
+| **Ödev 1** | Hafta 1-5 | Algoritma, VT kavramları, SELECT/WHERE, gruplama ve NULL | **23 Ekim 2026 Cuma, ders saatinden önce** | **23 Ekim 2026, derste** |
+| Ödev 2 | Hafta 6 | JOIN | Sonra duyurulacak | Sonra duyurulacak |
+| Ödev 3 | Hafta 7 | ERD ve normalizasyon | Sonra duyurulacak | Sonra duyurulacak |
+| Ödev yok | Hafta 8 | Ara sınav haftası | | |
+| Ödev 4 | Hafta 9 | Şema kurma (DDL) | Sonra duyurulacak | Sonra duyurulacak |
+| Ödev 5 | Hafta 10 | Veriyi taşıma (DML) | Sonra duyurulacak | Sonra duyurulacak |
+| Ödev 6 | Hafta 11 | Görünüm, güvenlik, YZ bileşeni | Sonra duyurulacak | Sonra duyurulacak |
+| Final | Hafta 12 | Ana proje ve sunum | Sonra duyurulacak | Sunum günü |
 
-**Ödev 1 dönemin ilk ödevi ve beş haftayı birden kapsıyor.** İlk beş hafta kurulum, algoritmik düşünme ve tek tablolu sorgularla geçti; bu ödev hepsini tek teslimde topluyor. Depo kurulumu da onun Bölüm 0'ı.
+**Ödev 1 dönemin ilk notlu ödevi ve beş haftayı birden kapsıyor.** İlk beş hafta algoritmik düşünme, veritabanı kavramları ve tek tablolu sorgularla geçti. Bu ödev dört bölümde hepsini topluyor. Depo kurulumu ödevin bir parçası değil, sadece teslim yolu; bölüm 2'de anlatılıyor.
 
-**Kural:** PR, bir sonraki dersin başlangıcından **en geç 24 saat önce** açılmış olmalı. Raporu da o derste getirirsin.
+**Kural:** son commit'in, teslim günündeki **dersin başlama saatinden önce** gönderilmiş olmalı. GitHub her commit'in saatini kaydediyor. Kâğıt raporu da aynı gün derse getirirsin.
 
-Tarihler dönem başında bu tabloya işlenir ve derste duyurulur.
+**Şu anda sadece Ödev 1 aktif.** Aşağıdaki ödevlerin konuları belli ama tarihleri henüz kesinleşmedi; her biri kendi haftasının dersinde duyurulacak ve bu tabloya işlenecek. Yönergelerini şimdiden okuyabilirsin, teslim açıldığında haber veririm.
 
 ---
 
@@ -223,8 +228,8 @@ Bonus bölümleri notu yükseltmez ama rubrikte "Tam" seviyeye çıkmanı kolayl
 
 ## İlgili dosyalar
 
-- [RUBRIK.md](RUBRIK.md) — notlandırma ölçütleri
-- [templates/odev-rapor-sablonu.md](templates/odev-rapor-sablonu.md) — derste teslim edeceğin rapor
-- [templates/pull_request_template.md](templates/pull_request_template.md) — PR açıklaması
-- [SETUP.md](SETUP.md) — kurulum
-- [SYLLABUS.md](SYLLABUS.md) — değerlendirme ağırlıkları
+- [RUBRIK.md](RUBRIK.md): notlandırma ölçütleri
+- [templates/odev-rapor-sablonu.md](templates/odev-rapor-sablonu.md): derste teslim edeceğin rapor
+- [templates/pull_request_template.md](templates/pull_request_template.md): PR açıklaması
+- [SETUP.md](SETUP.md): kurulum
+- [SYLLABUS.md](SYLLABUS.md): değerlendirme ağırlıkları

@@ -15,7 +15,7 @@ psql -d robot_fleet     # Robotik
 psql -d llm_ops         # YZO
 ```
 
-Teslim: sorgular `lab-sheets/week-05.sql`, bu föy `lab-sheets/week-05.md` olarak kendi proje reponda.
+Teslim: bu föyün 15 sorusu **Ödev 1'in 4. bölümü**. Sorgular `odevler/odev-01/bolum4.sql` dosyasına, her sorgunun altına sonucu yorumlayan bir cümle. Ödevin tamamı: [odev.md](odev.md)
 
 ---
 

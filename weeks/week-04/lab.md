@@ -19,7 +19,7 @@ Tanışma komutları: `\dt` tabloları listeler, `\d robots` bir tablonun sütun
 
 **Nasıl çalışacaksın:** 15 sorunun her birinin iki sürümü var. Kendi programının sürümünü çöz. Bitirirsen diğerine geç, bu bonus.
 
-**Nasıl teslim edeceksin:** sorguları bir `.sql` dosyasına yaz, her sorgunun üstüne `-- Soru 3` gibi bir yorum satırı ekle. Dosyayı kendi proje reponda `lab-sheets/week-04.sql` olarak commit et. Bu föyü de doldurup `lab-sheets/week-04.md` olarak ekle.
+**Nasıl teslim edeceksin:** bu föyün 15 sorusu **Ödev 1'in 3. bölümü**. Sorguları `odevler/odev-01/bolum3.sql` dosyasına yaz, her sorgunun üstüne `-- Soru 3` gibi bir yorum satırı ekle, altına kaç satır döndüğünü. Ödevin tamamı: [../week-05/odev.md](../week-05/odev.md)
 
 ---
 

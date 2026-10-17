@@ -1,6 +1,10 @@
-# Ödev 5 — Veriyi taşıma (DML)
+# Ödev 5: Veriyi taşıma (DML)
 
-**Hafta 10 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 11 dersinde**
+> **Bu ödev henüz açılmadı.** Konusu belli, tarihi değil. Şu an aktif olan tek ödev [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma. Buradaki yönergeyi şimdiden okuyabilirsin.
+
+Hafta 10 konusu. 100 puan.
+
+**Son teslim: tarih sonra duyurulacak, ders saatinden önce GitHub'da. Tek sayfalık kâğıt rapor aynı gün derste.**
 
 ## Amaç
 
@@ -8,7 +12,7 @@ Ham CSV'ni, Hafta 9'da kurduğun şemaya güvenli biçimde taşımak. Artık ger
 
 ## Yapılacaklar
 
-### Bölüm 1 — Veriyi yükle (zorunlu)
+### Bölüm 1: Veriyi yükle (zorunlu)
 
 `data/seed/` klasörüne yükleme dosyalarını koy. İki yol var, hangisini kullandığını raporunda belirt:
 
@@ -21,7 +25,7 @@ Dosyan tekrar çalıştırılabilir olsun: baştan `TRUNCATE` ya da `DELETE` ile
 - [ ] Yabancı anahtar ilişkileri tutuyor (yükleme sırası doğru: önce ana tablo, sonra bağlı tablo)
 - [ ] En az 50 satır gerçek veri var
 
-### Bölüm 2 — Güvenli DML alışkanlığı (zorunlu)
+### Bölüm 2: Güvenli DML alışkanlığı (zorunlu)
 
 `odevler/odev-05/dml-denemeleri.sql` dosyasında şunları göster:
 
@@ -48,7 +52,7 @@ ROLLBACK;
 -- Deneme bitti, veri eski halinde.
 ```
 
-### Bölüm 3 — İlk gerçek analiz (zorunlu)
+### Bölüm 3: İlk gerçek analiz (zorunlu)
 
 Artık kendi verin veritabanında. Hafta 3'te yazdığın beş Türkçe sorudan **üçünü** gerçek SQL'e çevir ve çalıştır.
 

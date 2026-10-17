@@ -20,8 +20,8 @@ Durum: Yayında
 
 ## Bu haftanın dosyaları
 
-- [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
-- [lab.md](lab.md) — laboratuvar föyü, 15 soru
+- [ders-notu.md](ders-notu.md): haftanın ders notu, çalıştırılabilir örneklerle
+- [lab.md](lab.md): laboratuvar föyü, 15 soru
 
 Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir ve tarayıcıda büyütülebilir. Slayt sırasına göre ayrı bir `slides-text.md` slaytlar güncellendiğinde eklenecek.
 
@@ -61,10 +61,11 @@ PostgreSQL Tutorial, Aggregate Functions: https://www.postgresql.org/docs/curren
 
 ## Ödev
 
-**Ödev 1 — Haftalar 1-5: Temeller** (100 puan, dönemin ilk ödevi). Yönerge: [odev.md](odev.md)
+**Ödev 1: İlk beş haftanın tamamı** (100 puan, dönemin ilk notlu ödevi). Yönerge: [odev.md](odev.md)
 
-- Kapsam: kurulum, SELECT/WHERE (Hafta 4 labı) ve gruplama/NULL (bu haftanın labı), toplam 30 soru
+- Dört bölüm: algoritma ve izleme (20), veritabanı kavramları (10), SELECT/WHERE (35), gruplama ve NULL (35)
+- **Son teslim: 23 Ekim 2026 Cuma, ders saatinden önce GitHub'da**
 - PR ile teslim: dal `odev-01`, reviewer **gizemturker**
-- **Kâğıt rapor derste elden teslim edilir**
+- **Tek sayfalık kâğıt rapor aynı gün derste elden**
 
-Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)
+Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

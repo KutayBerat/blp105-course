@@ -1,6 +1,8 @@
-# Hafta 3 ek ödevi: algoritma tekrarı
+# Hafta 3 alıştırmaları: algoritma tekrarı
 
-Teslim: 5 gün sonra, derste elden teslim edilecek. GitHub'a yüklenmeyecek, kağıda ya da bir metin dosyası çıktısına yaz, getir.
+Bu sayfadaki sorular **Ödev 1'in 1. bölümüne** taşındı. Notlu teslim oradan yapılıyor: [Ödev 1](../week-05/odev.md), son tarih 23 Ekim 2026 Cuma.
+
+Burada ek alıştırma olarak duruyorlar. Bölüm 1'i bitirdiysen Soru 4'ü de dene, zor olan o.
 
 ## Neden bu ödev
 

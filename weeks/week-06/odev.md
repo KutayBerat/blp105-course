@@ -1,6 +1,10 @@
-# Ödev 2 — JOIN
+# Ödev 2: JOIN
 
-**Hafta 6 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 7 dersinde**
+> **Bu ödev henüz açılmadı.** Konusu belli, tarihi değil. Şu an aktif olan tek ödev [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma. Buradaki yönergeyi şimdiden okuyabilirsin.
+
+Hafta 6 konusu. 100 puan.
+
+**Son teslim: tarih sonra duyurulacak, ders saatinden önce GitHub'da. Tek sayfalık kâğıt rapor aynı gün derste.**
 
 ## Amaç
 
@@ -8,11 +12,11 @@
 
 ## Yapılacaklar
 
-### Bölüm 1 — Lab soruları (zorunlu)
+### Bölüm 1: Lab soruları (zorunlu)
 
 [lab.md](lab.md) dosyasındaki **15 soruyu** çöz, `odevler/odev-02/cozumler.sql` dosyasına yaz. Geçen haftaki gibi her sorgunun altına yorum cümlesi.
 
-### Bölüm 2 — Kendi verini ikiye böl (zorunlu)
+### Bölüm 2: Kendi verini ikiye böl (zorunlu)
 
 Şimdiye kadar tek bir CSV ile çalıştın. Gerçek bir veritabanı tek tablo olmaz.
 
@@ -26,7 +30,7 @@
 
 Son soru Hafta 7'de ERD çizerken işine yarayacak.
 
-### Bölüm 3 — Bonus (isteğe bağlı)
+### Bölüm 3: Bonus (isteğe bağlı)
 
 - Diğer programın sorularını da çöz
 - [SQL Murder Mystery](https://mystery.knightlab.com/) oyununu bitir, çözüm sorgunu `odevler/odev-02/bonus-mystery.sql` içine koy

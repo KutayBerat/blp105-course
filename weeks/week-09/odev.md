@@ -1,6 +1,10 @@
-# Ödev 4 — Şema kurma (DDL)
+# Ödev 4: Şema kurma (DDL)
 
-**Hafta 9 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 10 dersinde**
+> **Bu ödev henüz açılmadı.** Konusu belli, tarihi değil. Şu an aktif olan tek ödev [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma. Buradaki yönergeyi şimdiden okuyabilirsin.
+
+Hafta 9 konusu. 100 puan.
+
+**Son teslim: tarih sonra duyurulacak, ders saatinden önce GitHub'da. Tek sayfalık kâğıt rapor aynı gün derste.**
 
 ## Amaç
 
@@ -8,7 +12,7 @@ Hafta 7'de kağıt üzerinde tasarladığın şemayı gerçekten kurmak.
 
 ## Yapılacaklar
 
-### Bölüm 1 — Migration dosyası (zorunlu)
+### Bölüm 1: Migration dosyası (zorunlu)
 
 `migrations/001_create_tables.sql` dosyasını yaz. İçinde olması gerekenler:
 
@@ -29,7 +33,7 @@ createdb benim_projem
 psql -d benim_projem -f migrations/001_create_tables.sql
 ```
 
-### Bölüm 2 — Kısıt denemeleri (zorunlu)
+### Bölüm 2: Kısıt denemeleri (zorunlu)
 
 `odevler/odev-04/kisit-denemeleri.sql` dosyasında, kendi şemanı **bilerek bozmaya çalış.** Her denemenin altına aldığın hata mesajını yapıştır.
 
@@ -49,7 +53,7 @@ INSERT INTO robots (id, name) VALUES (1, 'Test-02');
 -- Yorum: birincil anahtar tekrari engelledi, veri bozulmadan korundu.
 ```
 
-### Bölüm 3 — Silme davranışı (zorunlu, kısa)
+### Bölüm 3: Silme davranışı (zorunlu, kısa)
 
 Raporunda: yabancı anahtarlarında hangi silme davranışını seçtin ve neden? `CASCADE` seçtiğin bir yer varsa, yanlışlıkla ne kaybedebileceğini düşün ve yaz.
 

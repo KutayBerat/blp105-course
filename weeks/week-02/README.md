@@ -18,8 +18,8 @@ Durum: Yayında
 
 ## Bu haftanın dosyaları
 
-- [ders-notu.md](ders-notu.md) — haftanın ders notu, örneklerle
-- [lab.md](lab.md) — laboratuvar föyü
+- [ders-notu.md](ders-notu.md): haftanın ders notu, örneklerle
+- [lab.md](lab.md): laboratuvar föyü
 
 ## Anahtar terimler
 

@@ -113,9 +113,9 @@ Mutfağa girip tencereyi karıştırmazsın. Veriye de doğrudan dokunmazsın; h
 
 ### İstemci ne olabilir?
 
-- `psql` — terminal programı, derste bunu kullanacağız
-- Bir Python programı — projende bunu kullanabilirsin
-- pgAdmin, DBeaver — arayüzlü programlar
+- `psql`: terminal programı, derste bunu kullanacağız
+- Bir Python programı: projende bunu kullanabilirsin
+- pgAdmin ve DBeaver: arayüzlü programlar
 
 Üçü de aynı sunucuya aynı dili konuşur.
 

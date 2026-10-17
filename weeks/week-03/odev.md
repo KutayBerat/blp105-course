@@ -1,7 +1,7 @@
-# Bu haftanın görevi Ödev 1'in içinde
+# Bu haftanın konusu Ödev 1'in içinde
 
-Hafta 3'ün repo kurulumu ve senaryo kartı, dönemin ilk ödevine taşındı.
+Hafta 3'te gördüğümüz veritabanı kavramları, dönemin ilk ödevinin 2. bölümü.
 
-→ **[Ödev 1 — Haftalar 1-5: Temeller](../week-05/odev.md)** (Bölüm 0 ve Bölüm 3)
+Yönerge: **[Ödev 1: İlk beş haftanın tamamı](../week-05/odev.md)**
 
-Teslim kuralları: [ODEVLER.md](../../ODEVLER.md)
+Son teslim: 23 Ekim 2026 Cuma, ders saatinden önce.

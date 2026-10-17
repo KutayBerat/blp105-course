@@ -19,7 +19,7 @@ Bu hafta birden fazla tablo var. Önce tabloları tanı:
 
 Her sorgunun altına bir yorum cümlesi yaz (geçen haftaki kural devam ediyor).
 
-Teslim: `lab-sheets/week-06.sql` ve `lab-sheets/week-06.md`, ödev teslimi [odev.md](odev.md).
+Teslim: sorgular `odevler/odev-02/cozumler.sql` dosyasına. Ödevin tamamı: [odev.md](odev.md)
 
 ---
 
@@ -133,7 +133,7 @@ ______________________________________________________________
 
 **B1.** Diğer programın sorularını da çöz.
 
-**B2.** [SQL Murder Mystery](https://mystery.knightlab.com/) — bir cinayeti JOIN'lerle çöz. Çözüm sorgunu ekle.
+**B2.** [SQL Murder Mystery](https://mystery.knightlab.com/): bir cinayeti JOIN'lerle çöz. Çözüm sorgunu ekle.
 
 **B3.** `CROSS JOIN` dene: `SELECT count(*) FROM robots CROSS JOIN missions;` Kaç satır döndü ve neden? ______
 

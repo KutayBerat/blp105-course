@@ -19,9 +19,9 @@ Durum: Yayında
 
 ## Bu haftanın dosyaları
 
-- [ders-notu.md](ders-notu.md) — haftanın ders notu
-- [slides-text.md](slides-text.md) — slaytların metin sürümü
-- [odev-algoritma.md](odev-algoritma.md) — Hafta 1-2 pekiştirme ödevi
+- [ders-notu.md](ders-notu.md): haftanın ders notu
+- [slides-text.md](slides-text.md): slaytların metin sürümü
+- [odev-algoritma.md](odev-algoritma.md): Hafta 1-2 alıştırmaları, Ödev 1 Bölüm 1'in kaynağı
 
 ## Anahtar terimler
 

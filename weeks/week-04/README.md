@@ -21,8 +21,8 @@ Durum: Yayında
 
 ## Bu haftanın dosyaları
 
-- [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
-- [lab.md](lab.md) — laboratuvar föyü, 15 soru
+- [ders-notu.md](ders-notu.md): haftanın ders notu, çalıştırılabilir örneklerle
+- [lab.md](lab.md): laboratuvar föyü, 15 soru
 
 Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir ve tarayıcıda büyütülebilir. Slayt sırasına göre ayrı bir `slides-text.md` slaytlar güncellendiğinde eklenecek.
 
@@ -79,4 +79,4 @@ Yönerge: [../week-05/odev.md](../week-05/odev.md)
 - PR ile teslim: dal `odev-01`, reviewer **gizemturker**
 - **Kâğıt rapor derste elden teslim edilir**
 
-Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)
+Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

@@ -109,11 +109,11 @@ Rubriğe ([RUBRIK.md](../RUBRIK.md)) göre kendine bir seviye ver. Bu puanını 
 
 | Ölçüt | 4 Tam | 3 İyi | 2 Gelişmeli | 1 Yetersiz |
 |---|---|---|---|---|
-| A — Doğruluk | ☐ | ☐ | ☐ | ☐ |
-| B — SQL kalitesi | ☐ | ☐ | ☐ | ☐ |
-| C — Yorum ve analiz | ☐ | ☐ | ☐ | ☐ |
-| D — Git ve PR disiplini | ☐ | ☐ | ☐ | ☐ |
-| E — Dürüstlük ve beyan | ☐ | ☐ | ☐ | ☐ |
+| A, Doğruluk | ☐ | ☐ | ☐ | ☐ |
+| B, SQL kalitesi | ☐ | ☐ | ☐ | ☐ |
+| C, Yorum ve analiz | ☐ | ☐ | ☐ | ☐ |
+| D, Git ve PR disiplini | ☐ | ☐ | ☐ | ☐ |
+| E, Dürüstlük ve beyan | ☐ | ☐ | ☐ | ☐ |
 
 Bir dahaki ödevde daha iyi yapacağım şey:
 

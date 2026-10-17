@@ -1,4 +1,4 @@
-# Hafta 9: DDL — tablolar, anahtarlar ve kısıtlar
+# Hafta 9: DDL, tablolar, anahtarlar ve kısıtlar
 
 Durum: Yakında
 
@@ -52,9 +52,11 @@ SQL Style Guide, "Create syntax" bölümü (adlandırma ve kısıt yazımı): ht
 
 ## Ödev
 
-**Ödev 4 — Şema kurma (DDL)** (100 puan). Yönerge: [odev.md](odev.md)
+Bu ödev henüz açılmadı, tarihi dersinde duyurulacak. Aktif ödev: [Ödev 1](../week-05/odev.md), son teslim 23 Ekim 2026 Cuma.
+
+**Ödev 4: Şema kurma (DDL)** (100 puan). Yönerge: [odev.md](odev.md)
 
 - PR ile teslim: dal `odev-04`, reviewer **gizemturker**
 - **Kâğıt rapor Hafta 10 dersinde elden teslim edilir**
 
-Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)
+Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)
