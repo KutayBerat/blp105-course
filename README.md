@@ -2,11 +2,11 @@
 
 Doğuş Üniversitesi MYO · Güz 2026-2027 · Öğretim görevlisi: Gizem Türker (GitHub: [gizemturker](https://github.com/gizemturker))
 
-Bu depo dersin ortak kaynak deposudur: ders amacı, haftalık konular, ders notları, örnek veritabanları, kaynak kitaplar, kurulum rehberi ve sözlük burada durur. Haftalık içerik her hafta bu depoya eklenir. Ödevlerini bu depoya değil, kendi proje reponuza koyacaksın, ödev yönergeleri ayrıca paylaşılır.
+Bu repo dersin ortak kaynak reposu: ders amacı, haftalık konular, ders notları, örnek veritabanları, kaynak kitaplar, kurulum rehberi ve sözlük burada durur. Haftalık içerik her hafta buraya eklenir. Ödevlerini bu repoya değil, kendi proje reponuza koyacaksınız.
 
-## Bu depoyu nasıl kullanırsın
+## Bu repoyu nasıl kullanırsın
 
-1. Depoyu bir kez klonla: `git clone https://github.com/gizemturker/blp105-course.git`
+1. Repoyu bir kez clone'la: `git clone https://github.com/gizemturker/blp105-course.git`
 2. Her hafta ders öncesi `git pull` ile yeni içeriği çek.
 3. İlgili haftanın klasörünü (`weeks/week-NN`) aç ve oradaki README'yi oku.
 4. SQL haftalarında örnek veritabanlarını bir kez kur: [data/README.md](data/README.md)
@@ -40,7 +40,7 @@ Bu dönem ders **12 hafta** işlenir.
 |---|---|---|---|
 | 1 | [Algoritmik düşünme: problemden adıma](weeks/week-01/README.md) | GitHub hesabı | Yayında |
 | 2 | [Döngüler ve temel algoritmalar](weeks/week-02/README.md) | - | Yayında |
-| 3 | [Veritabanı temel kavramları ve mimari](weeks/week-03/README.md) | Kura ve proje deposu | Yayında |
+| 3 | [Veritabanı temel kavramları ve mimari](weeks/week-03/README.md) | Kura ve proje reposu | Yayında |
 | 4 | [Ortam kurulumu, SELECT ve WHERE](weeks/week-04/README.md) | İlk sorgular | Yayında |
 | 5 | [SQL fonksiyonları ve gruplama (GROUP BY)](weeks/week-05/README.md) | **Ödev 1** | Yayında |
 | 6 | [Çoklu tablo sorguları (JOIN)](weeks/week-06/README.md) | JOIN sorguları | Yayında |
@@ -55,7 +55,7 @@ Bu dönem ders **12 hafta** işlenir.
 
 Dönem boyunca **6 notlu ödev** var. Her ödev iki parça halinde teslim edilir:
 
-1. **GitHub'da PR:** kendi deponda `odev-NN` dalı açar, çalışır, PR açar ve beni reviewer eklersin
+1. **GitHub'da PR:** kendi reponda `odev-NN` branch'ini açar, çalışır, PR açar ve beni reviewer eklersin
 2. **Kâğıt rapor:** tek sayfalık raporu teslim günündeki derste elden verirsin
 
 **Sıradaki: [Ödev 1, ilk beş haftanın tamamı](weeks/week-05/odev.md). Son teslim 23 Ekim 2026 Cuma, ders saatinden önce.**
@@ -70,7 +70,7 @@ Ayrıntı: [ODEVLER.md](ODEVLER.md), notlandırma: [RUBRIK.md](RUBRIK.md), şabl
 
 Anlatım Türkçe, teknik terimlerin İngilizcesi parantez içinde ve her haftanın "Anahtar terimler" tablosunda. Tüm terimler [GLOSSARY.md](GLOSSARY.md) içinde toplu halde. Haftalık okuma listeleri İngilizce resmi dokümantasyona yönlendirir: sektörde çalışırken başvuracağın kaynaklar bunlar.
 
-Kod, tablo ve sütun adları İngilizce yazılır: sektördeki depoların çoğu böyle, sen de projende böyle yap. Veri değerleri Türkçe olabilir.
+Kod, tablo ve sütun adları İngilizce yazılır: sektördeki repoların çoğu böyle, sen de projende böyle yap. Veri değerleri Türkçe olabilir.
 
 ## Erişilebilirlik
 

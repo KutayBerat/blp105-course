@@ -54,13 +54,13 @@ Sonucun ne anlama geldiğini anlamış mı? Bu ölçüt rapordan ve sorgu yoruml
 |---|---|---|---|
 | Kaç satır döndüğünü ve **neden** o kadar döndüğünü açıklıyor. Beklenmedik bir sonuç varsa sebebini bulmuş (eksik veri, koşul önceliği). Kendi verisiyle bağ kurmuş | Sonuçları açıklamış ama yüzeysel; beklenmedik sonucun sebebini bulamamış | Sadece "çalıştı" demiş, yorum yok | Rapor boş veya ödevle ilgisi yok |
 
-Bu ölçüt dersin kalbidir. Sorgu yazmak kolay; sayının doğru olup olmadığını anlamak zor olan.
+Bu ölçüt dersin kalbi. Sorgu yazmak kolay, asıl iş çıkan sayının doğru olup olmadığını anlamakta.
 
 ### Ölçüt D: Git ve PR disiplini (10 puan)
 
 | 4, Tam (10) | 3, İyi (8) | 2, Gelişmeli (5,5) | 1, Yetersiz (2,5) |
 |---|---|---|---|
-| Doğru dal adı (`odev-NN`), en az 3 anlamlı commit, PR şablonu doldurulmuş, reviewer eklenmiş | Küçük eksik: commit mesajları zayıf ya da PR açıklaması kısa | Tek dev commit, ya da dal açmadan main'e yazılmış | PR yok, dosyalar rastgele yüklenmiş |
+| Doğru branch adı (`odev-NN`), en az 3 anlamlı commit, PR şablonu doldurulmuş, reviewer eklenmiş | Küçük eksik: commit mesajları zayıf ya da PR açıklaması kısa | Tek dev commit, ya da branch açmadan main'e yazılmış | PR yok, dosyalar rastgele yüklenmiş |
 
 ### Ölçüt E: Dürüstlük ve YZ beyanı (10 puan)
 
@@ -134,7 +134,7 @@ Sunum sırasında sorulan sorulara verilen cevaplar.
 
 ## 3. Final Rubriği (Hafta 12, 100 puan, dönemin %40'ı)
 
-Jüri önünde 5 dakikalık sunum ve proje deposu.
+Jüri önünde 5 dakikalık sunum ve proje reposu.
 
 ### Ölçüt A: Şema ve veri (20 puan)
 
@@ -164,7 +164,7 @@ Jüri önünde 5 dakikalık sunum ve proje deposu.
 
 | 4, Tam | 3, İyi | 2, Gelişmeli | 1, Yetersiz |
 |---|---|---|---|
-| README'de problem, ERD, kurulum adımları, sorgu örnekleri, 90 saniyelik demo videosu ve "ne öğrendim" bölümü var. Depoyu ilk kez açan biri projeyi anlıyor | Çoğu var, demo videosu eksik | README kısa ve eksik | README boş veya şablon halinde |
+| README'de problem, ERD, kurulum adımları, sorgu örnekleri, 90 saniyelik demo videosu ve "ne öğrendim" bölümü var. Repoyu ilk kez açan biri projeyi anlıyor | Çoğu var, demo videosu eksik | README kısa ve eksik | README boş veya şablon halinde |
 
 ### Ölçüt F: Sunum ve savunma (15 puan)
 
@@ -190,7 +190,7 @@ Her ödev raporunda kendine bir seviye verirsin. Bu puanını etkilemez; amacı 
 
 Bir notun yanlış olduğunu düşünüyorsan:
 
-1. Notun açıklandığı tarihten itibaren **5 iş günü** içinde bir Issue aç (ders deposunda değil, bana doğrudan yaz).
+1. Notun açıklandığı tarihten itibaren **5 iş günü** içinde bir issue aç (ders reposunda değil, bana doğrudan yaz).
 2. Hangi ölçütte hangi seviyeyi hak ettiğini düşündüğünü, **rubriğe atıf yaparak** açıkla.
 3. "Daha yüksek olmalıydı" yeterli değil; "Ölçüt C'de 3 aldım ama raporumun 2. paragrafında eksik verinin sonucu nasıl etkilediğini açıkladım" yeterlidir.
 

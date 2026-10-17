@@ -113,7 +113,7 @@ SELECT name, battery_level FROM robots;
  ...
 ```
 
-`SELECT *` bütün sütunları getirir. Tabloyu tanırken iyidir, ama **raporda ve programda sütunları tek tek yaz.** İki sebep: tabloya yarın elli sütun eklenirse sorgu gereksiz veri taşır, ve sütun sırası değişirse programın sessizce bozulur.
+`SELECT *` bütün sütunları getirir. Tabloyu tanırken iyidir, ama **raporda ve programda sütunları tek tek yaz.** İki sebep: tabloya yarın elli sütun eklenirse sorgu gereksiz veri taşır, sütun sırası değişirse de programın sessizce bozulur.
 
 İki uyarı:
 

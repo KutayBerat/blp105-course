@@ -37,7 +37,7 @@ Dönem boyunca en çok başvuracağın kaynak, https://www.postgresql.org/docs/c
 
 ## Hafta 1-2: algoritma ve Python
 
-- **Python Tutor**, kodunu yapıştırıp satır satır çalıştırıyorsun, her adımda değişkenlerin değerini görüyorsun. İz sürme (trace table) sorularında önce kağıtta çöz, sonra buradan kontrol et: https://pythontutor.com/
+- **Python Tutor**, kodunu yapıştırıp satır satır çalıştırıyorsun, her adımda değişkenlerin değerini görüyorsun. İz sürme (trace table) sorularında önce kâğıtta çöz, sonra buradan kontrol et: https://pythontutor.com/
 - **Python resmi öğreticisi**, 4. bölüm akış kontrolü (`if`, `for`, `range`), 5. bölüm veri yapıları (liste, sözlük): https://docs.python.org/3/tutorial/
 
 ## Uygulama ve pratik
@@ -63,7 +63,7 @@ Dönem boyunca en çok başvuracağın kaynak, https://www.postgresql.org/docs/c
 - **Mermaid ERD sözdizimi**, ERD'ni markdown içinde çizip GitHub'da otomatik render ettirmek için: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
 - **pgvector**, PostgreSQL için vektör benzerlik araması eklentisi (L2, kosinüs, iç çarpım mesafeleri, HNSW ve IVFFlat indeksleri): https://github.com/pgvector/pgvector
 - **GitHub Docs, pull request oluşturma**, resmi adımlar: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-- **Learn Git Branching**, dal açmayı ve birleştirmeyi görselleştirerek öğreten interaktif bir oyun, açık kaynak: https://learngitbranching.js.org/
+- **Learn Git Branching**, branch açmayı ve merge etmeyi görselleştirerek öğreten interaktif bir oyun, açık kaynak: https://learngitbranching.js.org/
 - **explain.dalibo.com**, `EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON)` çıktısını okunur bir ağaca çeviriyor (Hafta 11): https://explain.dalibo.com/
 - **GitHub Docs**: https://docs.github.com/
 

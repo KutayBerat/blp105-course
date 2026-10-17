@@ -8,7 +8,7 @@ Hafta 9 konusu. 100 puan.
 
 ## Amaç
 
-Hafta 7'de kağıt üzerinde tasarladığın şemayı gerçekten kurmak.
+Hafta 7'de kâğıt üzerinde tasarladığın şemayı gerçekten kurmak.
 
 ## Yapılacaklar
 
@@ -64,7 +64,7 @@ Raporunda: yabancı anahtarlarında hangi silme davranışını seçtin ve neden
 | Şema | `migrations/001_create_tables.sql` |
 | Kısıt denemeleri | `odevler/odev-04/kisit-denemeleri.sql` |
 | Rapor (dijital) | `odevler/odev-04/rapor.md` |
-| PR | Dal `odev-04`, reviewer: gizemturker |
+| PR | Branch `odev-04`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 10 dersinde elden** |
 
 ## Değerlendirme

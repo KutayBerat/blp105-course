@@ -8,7 +8,7 @@ Hafta 6 konusu. 100 puan.
 
 ## Amaç
 
-İki tabloyu doğru JOIN türüyle birleştirebilmek, ve bir toplamın JOIN yüzünden neden şiştiğini fark edebilmek.
+İki tabloyu doğru JOIN türüyle birleştirebilmek ve bir toplamın JOIN yüzünden neden şiştiğini fark edebilmek.
 
 ## Yapılacaklar
 
@@ -42,7 +42,7 @@ Son soru Hafta 7'de ERD çizerken işine yarayacak.
 | Sorgular (yorumlu) | `odevler/odev-02/cozumler.sql` |
 | Rapor (dijital) | `odevler/odev-02/rapor.md` |
 | Tablolara ayırma taslağı | `SCENARIO.md` içinde |
-| PR | Dal `odev-02`, reviewer: gizemturker |
+| PR | Branch `odev-02`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 7 dersinde elden** |
 
 ## Raporda özellikle cevaplamanı istediklerim

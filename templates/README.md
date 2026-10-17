@@ -1,6 +1,6 @@
 # Şablonlar
 
-Bu klasördeki dosyalar öğrenciler içindir. Kendi deponuza kopyalayıp doldurursunuz.
+Bu klasördeki dosyalar öğrenciler içindir. Kendi reponuza kopyalayıp doldurursunuz.
 
 | Dosya | Nereye kopyalanır | Ne zaman |
 |---|---|---|

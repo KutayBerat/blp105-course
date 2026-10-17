@@ -13,7 +13,7 @@ Terimler dönem boyunca eklenir. Eksik bulduğun bir terim varsa Issue aç.
 | relational model | ilişkisel model | |
 | table / row / column | tablo / satır / sütun | Satır için *record*, sütun için *field* de denir |
 | record / field | kayıt / alan | |
-| schema | şema | İki anlamı var: tabloların yapısı, ve veritabanı içindeki klasör |
+| schema | şema | İki anlamı var: tabloların yapısı, bir de veritabanı içindeki klasör |
 | cluster | küme | Bir sunucudaki tüm veritabanları |
 | client-server architecture | istemci-sunucu mimarisi | |
 | query | sorgu | |
@@ -139,7 +139,13 @@ Terimler dönem boyunca eklenir. Eksik bulduğun bir terim varsa Issue aç.
 | loop (for, while) | döngü | |
 | iteration | yineleme | Döngünün her bir adımı |
 | list / array | liste / dizi | |
-| repository (repo) | depo | |
-| commit / push / pull | kaydetme / gönderme / çekme | |
-| clone / fork | kopyalama / çatallama | |
-| issue / pull request | konu / çekme isteği | |
+| repository (repo) | repo | Derste İngilizcesini kullanıyoruz: "repo" |
+| branch | branch | Türkçesi "dal" ama kimse öyle demiyor |
+| main | main | Projenin ana branch'i |
+| commit | commit | Bir değişikliği kaydetme |
+| push / pull | push / pull | Gönderme / çekme |
+| clone / fork | clone / fork | |
+| merge | merge | İki branch'i birleştirme |
+| issue | issue | Soru ya da hata kaydı |
+| pull request (PR) | pull request | Branch'teki işi main'e almak için açılan istek |
+| reviewer | reviewer | PR'ı inceleyen kişi |

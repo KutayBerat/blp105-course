@@ -62,7 +62,7 @@ Raporunda iki soruyu cevapla:
 | ERD | `docs/erd.md` |
 | Normalizasyon raporu | `docs/normalizasyon.md` |
 | Rapor (dijital) | `odevler/odev-03/rapor.md` |
-| PR | Dal `odev-03`, reviewer: gizemturker |
+| PR | Branch `odev-03`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 8 dersinde elden** |
 
 ## Değerlendirme

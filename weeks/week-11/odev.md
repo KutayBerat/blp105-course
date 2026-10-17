@@ -79,7 +79,7 @@ Bu tabloyu `odevler/odev-06/text-to-sql.md` içine koy. En ilginç kısmı: **ç
 | Roller | `migrations/004_roles.sql` |
 | YZ bileşeni | `odevler/odev-06/` |
 | Rapor (dijital) | `odevler/odev-06/rapor.md` |
-| PR | Dal `odev-06`, reviewer: gizemturker |
+| PR | Branch `odev-06`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 12, final günü elden** |
 
 ## Değerlendirme

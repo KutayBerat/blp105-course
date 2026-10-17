@@ -10,7 +10,7 @@ Burada ek alıştırma olarak duruyorlar. Bölüm 1'i bitirdiysen Soru 4'ü de d
 
 ## Soru 1: İz sürme (trace table)
 
-Aşağıdaki kodu kağıt üzerinde, hiç çalıştırmadan, satır satır izle. Her döngü adımında `i`, `total` ve `result` değişkenlerinin aldığı değerleri bir tabloya yaz.
+Aşağıdaki kodu kâğıt üzerinde, hiç çalıştırmadan, satır satır izle. Her döngü adımında `i`, `total` ve `result` değişkenlerinin aldığı değerleri bir tabloya yaz.
 
 ```python
 numbers = [4, 7, 2, 9, 5, 1, 8]

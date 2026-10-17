@@ -42,7 +42,7 @@ Başlık biçimi: Ödev N, Ad Soyad, Öğrenci No
 
 ## Kontrol listesi
 
-- [ ] Dal adım `odev-NN` biçiminde
+- [ ] Branch adım `odev-NN` biçiminde
 - [ ] En az 3 anlamlı commit attım
 - [ ] Bütün sorgularımı çalıştırdım, hata vermiyor
 - [ ] Her sorgunun üstünde soru numarası var (`-- Soru 7`)

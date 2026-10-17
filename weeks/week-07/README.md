@@ -73,7 +73,7 @@ Bu ödev henüz açılmadı, tarihi dersinde duyurulacak. Aktif ödev: [Ödev 1]
 
 **Ödev 3: ERD ve normalizasyon** (100 puan). Yönerge: [odev.md](odev.md)
 
-- PR ile teslim: dal `odev-03`, reviewer **gizemturker**
+- PR ile teslim: branch `odev-03`, reviewer **gizemturker**
 - **Kâğıt rapor Hafta 8 dersinde elden teslim edilir**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

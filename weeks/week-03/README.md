@@ -53,7 +53,7 @@ Kura, repo, senaryo kartı
 
 ## Ödev
 
-Bu haftanın işi **Ödev 1**'in içinde: depo kurulumu (Bölüm 0) ve senaryo kartı (Bölüm 3).
+Bu haftanın konusu **Ödev 1**'in 2. bölümünde: veritabanı kavramları.
 
 Yönerge: [../week-05/odev.md](../week-05/odev.md)
 

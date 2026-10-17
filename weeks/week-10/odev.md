@@ -66,7 +66,7 @@ Artık kendi verin veritabanında. Hafta 3'te yazdığın beş Türkçe sorudan 
 | DML denemeleri | `odevler/odev-05/dml-denemeleri.sql` |
 | Analiz sorguları | `queries/analiz-01.sql` |
 | Rapor (dijital) | `odevler/odev-05/rapor.md` |
-| PR | Dal `odev-05`, reviewer: gizemturker |
+| PR | Branch `odev-05`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 11 dersinde elden** |
 
 ## Raporda özellikle cevaplamanı istediklerim

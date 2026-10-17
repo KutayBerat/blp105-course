@@ -7,7 +7,7 @@
 
 ## Bu ödev neyi ölçüyor
 
-İlk beş haftada üç şey öğrendik: bir problemi adımlara bölmeyi, bir veritabanının neden tablolardan kurulduğunu, ve tek bir tablodan doğru satırları çekip özetlemeyi. Bu ödev üçünü de tek seferde soruyor.
+İlk beş haftada üç şey öğrendik: bir problemi adımlara bölmeyi, bir veritabanının neden tablolardan kurulduğunu ve tek bir tablodan doğru satırları çekip özetlemeyi. Bu ödev üçünü de tek seferde soruyor.
 
 Yeni bir konu yok. Hepsini derste gördük, lab föylerinde çözdük. Burada tek fark, bu kez yalnız çalışıyor olman.
 
@@ -15,7 +15,7 @@ Dört bölüm var, hepsi zorunlu. Tahmini süre altı saat. Tek oturuşta bitirm
 
 ## Bölüm 1: Algoritma ve izleme (20 puan)
 
-Hafta 1 ve 2'nin konusu. Üç sorunun da kağıt üstünde başlaması gerekiyor, kod sonra gelir.
+Hafta 1 ve 2'nin konusu. Üç soruya da kâğıt üstünde başla, kod sonra gelsin.
 
 **Soru 1.1. İz sürme.** Aşağıdaki kodu çalıştırmadan, satır satır izle. Her döngü adımında `i`, `total` ve `result` değişkenlerinin değerlerini bir tabloya yaz.
 
@@ -118,15 +118,15 @@ FROM robots;
 -- Bu tek boşluk ortalamayı 4 puan kaydırıyor.
 ```
 
-Yorumsuz teslim edilen bölümden 20 puana kadar kırarım. Sorguyu çalıştırmak kolay, çıkan sayının doğru olup olmadığını anlamak zor olan.
+Yorumsuz teslim edilen bölümden 20 puana kadar kırarım. Sorguyu çalıştırmak kolay, asıl iş çıkan sayının doğru olup olmadığını anlamakta.
 
 Dosya: `odevler/odev-01/bolum4.sql`
 
 ## Nasıl göndereceksin
 
-Çalışmanı kendi GitHub deponda, `odev-01` adlı bir dalda topla ve `main` dalına bir pull request aç. Reviewer olarak **gizemturker** ekle. PR'ı kendin birleştirme, ben inceleyeceğim.
+Çalışmanı kendi GitHub reponda `odev-01` adlı bir branch'te topla, sonra main'e pull request aç. Reviewer olarak **gizemturker** ekle. PR'ı kendin merge etme, ben inceleyeceğim.
 
-Deponu henüz kurmadıysan adımlar [ODEVLER.md](../../ODEVLER.md) bölüm 2'de. Kurulum bu ödevin puanına dahil değil, sadece teslim yolu.
+Reponu henüz kurmadıysan adımlar [ODEVLER.md](../../ODEVLER.md) bölüm 2'de. Kurulum bu ödevin puanına dahil değil, sadece teslim yolu.
 
 ```
 odevler/odev-01/
@@ -178,7 +178,7 @@ Raporunda bu dört soruya da değin:
 
 Her bölüm içinde doğruluk, kod kalitesi ve yorumun ayrı ayrı değerlendirilir. Ayrıntılı ölçütler: [RUBRIK.md](../../RUBRIK.md)
 
-Bu ilk ödev olduğu için Git ve PR disiplininden puan kırmayacağım. Dal adını yanlış yazdıysan, commit mesajların dağınıksa yorum bırakırım, geçerim. Ödev 2'den itibaren bu ölçüt işlemeye başlar.
+Bu ilk ödev olduğu için Git ve PR disiplininden puan kırmayacağım. Branch adını yanlış yazdıysan, commit mesajların dağınıksa yorum bırakırım, geçerim. Ödev 2'den itibaren bu ölçüt işlemeye başlar.
 
 ## Geç teslim
 
@@ -194,7 +194,7 @@ Geçerli bir mazeretin varsa önceden yaz. Sonradan gelen mazeret kesintiyi kald
 
 Serbest, beyan zorunlu. ChatGPT, Claude, Copilot, hangisini istersen kullan. Ama raporunda hangi araçta ne sorduğunu ve çıkan cevabı nasıl doğruladığını yazacaksın.
 
-Beyan edilmemiş kullanım ödevi sıfırlar. Bunu yakalamak sandığından kolay: bir modelin yazdığı sorgu ile senin bu hafta öğrendiğin SQL arasındaki fark bariz oluyor, ve PR'a yorum olarak "bu satırı açıklar mısın" diye sorabiliyorum.
+Beyan edilmemiş kullanım ödevi sıfırlar. Bunu yakalamak sandığından kolay: bir modelin yazdığı sorgu ile senin bu hafta öğrendiğin SQL arasındaki fark bariz oluyor. Üstüne PR'a yorum olarak "bu satırı açıklar mısın" diye sorabiliyorum.
 
 Ayrıntılı kural: [ODEVLER.md](../../ODEVLER.md) bölüm 6.
 
@@ -203,7 +203,7 @@ Ayrıntılı kural: [ODEVLER.md](../../ODEVLER.md) bölüm 6.
 1. Önce hata mesajını oku. PostgreSQL genelde sorunu doğrudan söyler, hatta hangi karakterde olduğunu gösterir.
 2. Sorgun hata vermiyor ama sonuç tuhafsa büyük küçük harfe, tırnak tipine, birime (saniye mi milisaniye mi) ve koşul önceliğine bak.
 3. Her sorgunun sonucunu tek bir satır üzerinden gözünle doğrula.
-4. Beş dakikadan fazla aynı yerde dönme. Depodaki [soru şablonuyla](../../.github/ISSUE_TEMPLATE/question.md) issue aç ya da bana yaz.
+4. Beş dakikadan fazla aynı yerde dönme. Ders reposundaki [soru şablonuyla](../../.github/ISSUE_TEMPLATE/question.md) issue aç ya da bana yaz.
 
 Hepinize kolay gelsin. Zorlandığınız yerleri bana yazın, bir sonraki dersin ilk yarım saatini oraya ayıracağım.
 
@@ -213,7 +213,7 @@ Hepsi ücretsiz. Hiçbirini baştan sona okuman gerekmiyor, takıldığın böl�
 
 **Bölüm 1, algoritma ve izleme**
 
-- [Python Tutor](https://pythontutor.com/), kodunu yapıştır, satır satır çalıştır, her adımda değişkenlerin değerini gör. İz sürme sorusunu önce kağıtta çöz, sonra buradan kontrol et. Soru 1.1 için birebir uygun.
+- [Python Tutor](https://pythontutor.com/), kodunu yapıştır, satır satır çalıştır, her adımda değişkenlerin değerini gör. İz sürme sorusunu önce kâğıtta çöz, sonra buradan kontrol et. Soru 1.1 için birebir uygun.
 - [Python resmi öğretici, 4. bölüm](https://docs.python.org/3/tutorial/controlflow.html), `if`, `for`, `range()`, `break` ve `continue`. Soru 1.2 bu bölümün içinde.
 - [Python resmi öğretici, 5. bölüm](https://docs.python.org/3/tutorial/datastructures.html), listeler ve sözlükler. Soru 1.3'te sözlüğü buradan kullanacaksın.
 
@@ -240,7 +240,7 @@ Hepsi ücretsiz. Hiçbirini baştan sona okuman gerekmiyor, takıldığın böl�
 **Teslim ve Git**
 
 - [GitHub Docs, pull request oluşturma](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), resmi adımlar, ekran görüntüleriyle.
-- [Learn Git Branching](https://learngitbranching.js.org/), dal açmayı ve birleştirmeyi görselleştirerek öğreten interaktif bir oyun. Komutları ezberlemek yerine ne olduğunu görmek istiyorsan yarım saat ayır.
+- [Learn Git Branching](https://learngitbranching.js.org/), branch açmayı ve merge etmeyi görselleştirerek öğreten interaktif bir oyun. Komutları ezberlemek yerine ne olduğunu görmek istiyorsan yarım saat ayır.
 
 **Yazım kalitesi**
 

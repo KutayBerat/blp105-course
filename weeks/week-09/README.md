@@ -2,7 +2,7 @@
 
 Durum: Yakında
 
-> Hafta 7'de kağıt üzerinde tasarladığın şemayı bu hafta gerçekten kuruyorsun.
+> Hafta 7'de kâğıt üzerinde tasarladığın şemayı bu hafta gerçekten kuruyorsun.
 
 ## Bu hafta ne işliyoruz
 
@@ -56,7 +56,7 @@ Bu ödev henüz açılmadı, tarihi dersinde duyurulacak. Aktif ödev: [Ödev 1]
 
 **Ödev 4: Şema kurma (DDL)** (100 puan). Yönerge: [odev.md](odev.md)
 
-- PR ile teslim: dal `odev-04`, reviewer **gizemturker**
+- PR ile teslim: branch `odev-04`, reviewer **gizemturker**
 - **Kâğıt rapor Hafta 10 dersinde elden teslim edilir**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

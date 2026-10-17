@@ -104,7 +104,7 @@ ______________________________________________________________
 
 Önce `= NULL` ile dene. Kaç satır geldi? ______ Sonra `IS NULL` ile dene. Kaç satır geldi? ______
 
-**13.** İki ortalama. Ortalamayı iki şekilde hesapla ve yan yana göster: boşları atlayarak, ve boşları sıfır sayarak (`COALESCE`).
+**13.** İki ortalama. Ortalamayı iki şekilde hesapla ve yan yana göster: boşları atlayarak ve boşları sıfır sayarak (`COALESCE`).
 
 Boşu atlayarak: ______  Boşu sıfır sayarak: ______
 

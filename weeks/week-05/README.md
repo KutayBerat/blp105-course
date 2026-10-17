@@ -65,7 +65,7 @@ PostgreSQL Tutorial, Aggregate Functions: https://www.postgresql.org/docs/curren
 
 - Dört bölüm: algoritma ve izleme (20), veritabanı kavramları (10), SELECT/WHERE (35), gruplama ve NULL (35)
 - **Son teslim: 23 Ekim 2026 Cuma, ders saatinden önce GitHub'da**
-- PR ile teslim: dal `odev-01`, reviewer **gizemturker**
+- PR ile teslim: branch `odev-01`, reviewer **gizemturker**
 - **Tek sayfalık kâğıt rapor aynı gün derste elden**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

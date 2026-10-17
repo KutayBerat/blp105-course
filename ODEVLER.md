@@ -1,6 +1,6 @@
 # Ödevler ve Teslim Kuralları
 
-Bu derste **6 notlu ödev** var. Hepsi aynı şekilde teslim edilir: GitHub'da kendi deponda bir **Pull Request (PR)** açarsın, ayrıca **bir sayfalık raporu derste elden teslim edersin.**
+Bu derste **6 notlu ödev** var. Hepsi aynı şekilde teslim edilir: GitHub'da kendi reponda bir **pull request (PR)** açarsın, ayrıca **bir sayfalık raporu derste elden teslim edersin.**
 
 İki teslimin ikisi de zorunludur. PR'ı açıp raporu getirmezsen ödev eksik sayılır; raporu getirip PR açmazsan da öyle.
 
@@ -14,7 +14,7 @@ Kendi repon  →  yeni branch  →  çalış, commit at  →  PR aç  →  beni 
                                                         Derste bir sayfalık rapor
 ```
 
-Neden PR? Çünkü sektörde kod böyle teslim edilir. Kimse ana dala doğrudan yazmaz: dal açar, iş biter, PR açar, biri inceler, sonra birleşir. Bu dersten çıkarken bu alışkanlığı kazanmanı istiyorum. Ödevlerin aynı zamanda bu akışın provası.
+Neden PR? Çünkü sektörde kod böyle teslim edilir. Kimse doğrudan main'e yazmaz: branch açar, işi bitirir, PR açar, biri inceler, sonra merge edilir. Bu dersten çıkarken bu alışkanlığı kazanmanı istiyorum. Ödevlerin aynı zamanda bu akışın provası.
 
 ---
 
@@ -22,7 +22,7 @@ Neden PR? Çünkü sektörde kod böyle teslim edilir. Kimse ana dala doğrudan 
 
 Bunu **bir kez** yaparsın, sonra her ödevde tekrar etmezsin. Kurulum notlandırılmıyor, sadece teslim yolu. Henüz yapmadıysan Ödev 1'den önce bitir.
 
-### 2.1 Depoyu oluştur
+### 2.1 Repoyu oluştur
 
 1. [Proje şablonunu](https://github.com/gizemturker/project-template) aç, **Use this template** → **Create a new repository**.
 2. Owner: kendi kullanıcı adın. Repository name: önce `db-project`, kuradan sonra projene uygun İngilizce bir adla değiştir (`smart-farm-drone-db` gibi).
@@ -34,11 +34,11 @@ Settings → Collaborators → Add people → **gizemturker**
 
 Bu adım olmadan PR'larını göremem ve ödevin teslim edilmemiş sayılır. Dönem başında bir kez yap, sonra unut.
 
-### 2.3 Ana dalı koru (önerilir, zorunlu değil)
+### 2.3 main'i koru (önerilir, zorunlu değil)
 
 Settings → Branches → Add branch protection rule → `main` → "Require a pull request before merging" işaretle.
 
-Bunu açarsan `main`'e doğrudan yazamazsın, kendini PR açmaya zorlarsın. Gerçek projelerde bu ayar hep açıktır.
+Bunu açarsan main'e doğrudan yazamazsın, kendini PR açmaya zorlarsın. Gerçek projelerde bu ayar hep açıktır.
 
 ### 2.4 Klasör yapısı
 
@@ -72,7 +72,7 @@ senin-repon/
 
 ## 3. Her ödevde yapacakların
 
-### Adım 1: Dal aç
+### Adım 1: Branch aç
 
 ```bash
 git checkout main
@@ -80,7 +80,7 @@ git pull
 git checkout -b odev-01
 ```
 
-Dal adı her zaman `odev-NN` biçiminde: `odev-01`, `odev-02`, `odev-06`.
+Branch adı her zaman `odev-NN` biçiminde: `odev-01`, `odev-02`, `odev-06`.
 
 ### Adım 2: Çalış ve commit at
 
@@ -114,9 +114,9 @@ GitHub'da repona git, çıkan **Compare & pull request** düğmesine bas.
 
 Reviewer olarak beni eklemezsen PR'ın bana düşmez.
 
-### Adım 4: PR'ı birleştirme
+### Adım 4: PR'ı merge etme
 
-**PR'ı kendin birleştirme (merge).** Ben inceleyip yorum bırakacağım. Düzeltme istersem aynı dala commit atarsın, PR kendiliğinden güncellenir. Onaydan sonra birleştirebilirsin.
+**PR'ı kendin merge etme.** Ben inceleyip yorum bırakacağım. Düzeltme istersem aynı branch'e commit atarsın, PR kendiliğinden güncellenir. Onayladıktan sonra merge edebilirsin.
 
 ### Adım 5: Raporu derste teslim et
 
@@ -143,7 +143,7 @@ Bir sayfa, en fazla iki. Elle doldurulacak alanlar var, bilgisayarda doldurup ya
 | Ödev 6 | Hafta 11 | Görünüm, güvenlik, YZ bileşeni | Sonra duyurulacak | Sonra duyurulacak |
 | Final | Hafta 12 | Ana proje ve sunum | Sonra duyurulacak | Sunum günü |
 
-**Ödev 1 dönemin ilk notlu ödevi ve beş haftayı birden kapsıyor.** İlk beş hafta algoritmik düşünme, veritabanı kavramları ve tek tablolu sorgularla geçti. Bu ödev dört bölümde hepsini topluyor. Depo kurulumu ödevin bir parçası değil, sadece teslim yolu; bölüm 2'de anlatılıyor.
+**Ödev 1 dönemin ilk notlu ödevi ve beş haftayı birden kapsıyor.** İlk beş hafta algoritmik düşünme, veritabanı kavramları ve tek tablolu sorgularla geçti. Bu ödev dört bölümde hepsini topluyor. Repo kurulumu ödevin bir parçası değil, sadece teslim yolu; bölüm 2'de anlatılıyor.
 
 **Kural:** son commit'in, teslim günündeki **dersin başlama saatinden önce** gönderilmiş olmalı. GitHub her commit'in saatini kaydediyor. Kâğıt raporu da aynı gün derse getirirsin.
 
@@ -210,7 +210,7 @@ Tespit edilen kopyada her iki tarafa da sıfır verilir.
 Sorun değil, yorumlarımı commit üzerine yazarım. Bir dahakine bekle.
 
 **Branch açmayı unuttum, doğrudan main'e commit attım.**
-Yeni bir dal aç, `main`'i oraya al, `main`'i geri sar. Takılırsan lab saatinde çözeriz. İkinci kez olursa dal koruma kuralını açmanı isterim (bölüm 2.3).
+Yeni bir branch aç, main'deki işi oraya taşı, main'i geri sar. Takılırsan lab saatinde çözeriz. İkinci kez olursa branch koruma kuralını açmanı isterim (bölüm 2.3).
 
 **Sorgularımın hepsi doğru ama rapor yazmayı unuttum.**
 Ödev eksiktir. Rapor, ödevin yarısı sayılabilecek kadar önemli; rubrikteki "Yorum ve analiz" ölçütü oradan geliyor.

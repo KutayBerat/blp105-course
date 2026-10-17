@@ -76,7 +76,7 @@ Bu haftanın lab soruları **Ödev 1**'in Bölüm 1'i.
 
 Yönerge: [../week-05/odev.md](../week-05/odev.md)
 
-- PR ile teslim: dal `odev-01`, reviewer **gizemturker**
+- PR ile teslim: branch `odev-01`, reviewer **gizemturker**
 - **Kâğıt rapor derste elden teslim edilir**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md), rubrik: [RUBRIK.md](../../RUBRIK.md)

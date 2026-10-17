@@ -4,7 +4,7 @@
 
 Excel'de tuttuğun bir tablo bir yere kadar gider: birkaç kullanıcı, birkaç bin satır, tek bir dosya. Gerçek bir ürün, bir chatbot'un konuşma geçmişi, bir filonun sensör verisi, bir hastanenin kayıt sistemi, aynı anda birden fazla kişinin okuyup yazdığı, milyonlarca satırlık, hatasız kalması gereken bir veri katmanı ister. Bu ders sana o katmanı kurmayı öğretir: PostgreSQL ile.
 
-Dönem boyunca tek bir soruyu cevaplarsın: bu veriye nasıl güvenilir bir şekilde soru sorarım? İlk haftalarda hazır bir veritabanını sorgulayarak başlarız (SELECT, WHERE, GROUP BY, JOIN). Tasarım ve modelleme (E-R diyagramı, normalizasyon, DDL) sorgu deneyiminden sonra gelir, çünkü neyi modelleyeceğini önce ne sorduğunu görmeden bilemezsin.
+Dönem boyunca tek bir soruyu cevaplarsın: bu veriye nasıl güvenilir biçimde soru sorarım? İlk haftalarda hazır bir veritabanını sorgulayarak başlarız (SELECT, WHERE, GROUP BY, JOIN). Tasarım ve modelleme (E-R diyagramı, normalizasyon, DDL) sorgu deneyiminden sonra gelir, çünkü neyi modelleyeceğini önce ne sorduğunu görmeden bilemezsin.
 
 ## Öğrenme çıktıları
 
