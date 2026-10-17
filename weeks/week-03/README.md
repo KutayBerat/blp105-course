@@ -17,6 +17,12 @@ Durum: Yayında
 - Küme, veritabanı, şema, tablo hiyerarşisini sırayla sayabilirsin
 - Kendi proje reponu açıp ilk commit'ini atabilirsin
 
+## Bu haftanın dosyaları
+
+- [ders-notu.md](ders-notu.md) — haftanın ders notu
+- [slides-text.md](slides-text.md) — slaytların metin sürümü
+- [odev-algoritma.md](odev-algoritma.md) — Hafta 1-2 pekiştirme ödevi
+
 ## Anahtar terimler
 
 | English | Türkçe |
@@ -25,6 +31,9 @@ Durum: Yayında
 | schema | şema |
 | client-server architecture | istemci-sunucu mimarisi |
 | query | sorgu |
+| DQL / DDL / DML / DCL / TCL | SQL'in alt dilleri |
+
+Tüm terimler: [GLOSSARY.md](../../GLOSSARY.md)
 
 ## Laboratuvar
 
@@ -38,10 +47,6 @@ Durum: Yayında
 
 PostgreSQL Tutorial, giriş bölümü: https://www.postgresql.org/docs/current/tutorial-sql-intro.html
 
-## Ek kaynaklar
-
-- Slaytların metin sürümü (ekran okuyucu ve büyütme dostu): [slides-text.md](slides-text.md)
-
 ## Kilometre taşı
 
 Kura, repo, senaryo kartı
@@ -49,5 +54,9 @@ Kura, repo, senaryo kartı
 ## Ödev
 
 - `SCENARIO.md` içindeki beş soruyu tamamla.
-- Senaryon için bir gerçek veri kaynağı adayı bul ve linkini `SCENARIO.md` içine yaz. Fikirler: İBB Açık Veri (data.ibb.gov.tr), Kaggle Datasets, Hugging Face Datasets, Open-Meteo, phyphox (telefon sensörleri).
+- Senaryon için bir gerçek veri kaynağı adayı bul ve linkini `SCENARIO.md` içine yaz. Fikirler [RESOURCES.md](../../RESOURCES.md) sonundaki "Veri kaynağı bulmak için" bölümünde.
 - Ek olarak, ilk iki haftanın algoritma konularını pekiştiren bir ödev var, GitHub'a değil, derse elden getireceksin: [odev-algoritma.md](odev-algoritma.md). Teslim 5 gün sonra.
+
+## Gelecek haftaya hazırlık
+
+Hafta 4'te ilk sorgunu çalıştıracaksın. Ders öncesi örnek veritabanlarını kurmayı dene: [data/README.md](../../data/README.md). Kuramazsan sorun değil, lab saatinde birlikte kurarız.

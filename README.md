@@ -2,44 +2,60 @@
 
 Doğuş Üniversitesi MYO · Güz 2026-2027 · Öğretim görevlisi: Gizem Türker (GitHub: [gizemturker](https://github.com/gizemturker))
 
-Bu depo dersin ortak kaynak deposudur: ders amacı, haftalık konular, kaynak kitaplar, kurulum rehberi ve sözlük burada durur. Haftalık içerik her hafta bu depoya eklenir. Ödevlerini bu depoya değil, kendi proje reponuza koyacaksın, ödev yönergeleri ayrıca paylaşılır.
+Bu depo dersin ortak kaynak deposudur: ders amacı, haftalık konular, ders notları, örnek veritabanları, kaynak kitaplar, kurulum rehberi ve sözlük burada durur. Haftalık içerik her hafta bu depoya eklenir. Ödevlerini bu depoya değil, kendi proje reponuza koyacaksın, ödev yönergeleri ayrıca paylaşılır.
 
 ## Bu depoyu nasıl kullanırsın
 
 1. Depoyu bir kez klonla: `git clone https://github.com/gizemturker/blp105-course.git`
 2. Her hafta ders öncesi `git pull` ile yeni içeriği çek.
 3. İlgili haftanın klasörünü (`weeks/week-NN`) aç ve oradaki README'yi oku.
+4. SQL haftalarında örnek veritabanlarını bir kez kur: [data/README.md](data/README.md)
+
+Her hafta klasöründe şunları bulursun:
+
+| Dosya | Ne işe yarar |
+|---|---|
+| `README.md` | Haftanın özeti: konular, kazanımlar, terimler, okuma, ödev |
+| `ders-notu.md` | Haftanın ders notu, örneklerle ve çalıştırılabilir sorgularla |
+| `lab.md` | Laboratuvar föyü, kolaydan zora sorular |
+| `cozumler.sql` / `cozumler.py` | Çözüm anahtarı, lab sonrası yayımlanır |
+| `slides-text.md` | Slaytların metin sürümü (ekran okuyucu ve büyütme dostu) |
 
 ## Hızlı bağlantılar
 
 - [Ders amacı, çıktılar, değerlendirme: SYLLABUS.md](SYLLABUS.md)
+- [Örnek veritabanları ve kurulumu: data/README.md](data/README.md)
 - [Kaynak kitaplar ve bağlantılar: RESOURCES.md](RESOURCES.md)
 - [Kurulum rehberi: SETUP.md](SETUP.md)
 - [Sözlük (English-Türkçe): GLOSSARY.md](GLOSSARY.md)
 
 ## Hafta hafta
 
+Bu dönem ders **12 hafta** işlenir.
+
 | Hafta | Konu | Kilometre taşı | Durum |
 |---|---|---|---|
 | 1 | [Algoritmik düşünme: problemden adıma](weeks/week-01/README.md) | GitHub hesabı | Yayında |
 | 2 | [Döngüler ve temel algoritmalar](weeks/week-02/README.md) | - | Yayında |
 | 3 | [Veritabanı temel kavramları ve mimari](weeks/week-03/README.md) | Kura, repo, senaryo kartı | Yayında |
-| 4 | [Ortam kurulumu, SELECT ve WHERE](weeks/week-04/README.md) | Gerçek veri kaynağı, ham CSV | Yakında |
-| 5 | [SQL fonksiyonları ve gruplama (GROUP BY)](weeks/week-05/README.md) | İlk analiz sorguları | Yakında |
-| 6 | [Varlık-İlişki (E-R) modeli](weeks/week-06/README.md) | ERD taslağı | Yakında |
-| 7 | [Normalizasyon](weeks/week-07/README.md) | Normalizasyon planı | Yakında |
+| 4 | [Ortam kurulumu, SELECT ve WHERE](weeks/week-04/README.md) | Gerçek veri kaynağı, ham CSV | Yayında |
+| 5 | [SQL fonksiyonları ve gruplama (GROUP BY)](weeks/week-05/README.md) | İlk analiz sorguları | Yayında |
+| 6 | [Çoklu tablo sorguları (JOIN)](weeks/week-06/README.md) | JOIN sorguları | Yakında |
+| 7 | [E-R modeli ve normalizasyon](weeks/week-07/README.md) | ERD ve normalizasyon planı | Yakında |
 | 8 | [Ara sınav, mini proje sunumu](weeks/week-08/README.md) | Veri hikayesi, ERD, plan | Yakında |
-| 9 | [DDL, anahtarlar ve ilişkiler](weeks/week-09/README.md) | Şema (`CREATE TABLE`) | Yakında |
-| 10 | [DML ve transaction](weeks/week-10/README.md) | Veriyi şemaya taşıma | Yakında |
-| 11 | [Çoklu tablo sorguları (JOIN)](weeks/week-11/README.md) | JOIN sorguları | Yakında |
-| 12 | [Alt sorgular, görünümler, text-to-SQL](weeks/week-12/README.md) | Görünümler ve YZ bileşeni | Yakında |
-| 13 | [Veritabanı güvenliği](weeks/week-13/README.md) | README, demo, portfolyo | Yakında |
-| 14 | [Final: jüri önünde sunumlar](weeks/week-14/README.md) | Ana proje teslimi | Yakında |
+| 9 | [DDL: tablolar, anahtarlar ve kısıtlar](weeks/week-09/README.md) | Şema (`CREATE TABLE`) | Yakında |
+| 10 | [DML, transaction ve alt sorgular](weeks/week-10/README.md) | Veriyi şemaya taşıma | Yakında |
+| 11 | [Görünümler, güvenlik ve YZ bileşeni](weeks/week-11/README.md) | Görünümler, roller, YZ bileşeni | Yakında |
+| 12 | [Final: jüri önünde sunumlar](weeks/week-12/README.md) | Ana proje teslimi | Yakında |
+
+Sıralamanın mantığı: **önce sorgula, sonra tasarla.** Hafta 4-6 boyunca hazır bir veritabanına soru sorarsın. Ne sorduğunu gördükten sonra, Hafta 7'de kendi modelini kurar, Hafta 9'da onu gerçek bir şemaya dönüştürürsün.
 
 ## Dil
 
-Anlatım Türkçe, teknik terimlerin İngilizcesi parantez içinde veya sözlükte. Kod, tablo ve sütun adları İngilizce yazılır: sektördeki depoların çoğu böyle, sen de projende böyle yap.
+Anlatım Türkçe, teknik terimlerin İngilizcesi parantez içinde ve her haftanın "Anahtar terimler" tablosunda. Tüm terimler [GLOSSARY.md](GLOSSARY.md) içinde toplu halde. Haftalık okuma listeleri İngilizce resmi dokümantasyona yönlendirir: sektörde çalışırken başvuracağın kaynaklar bunlar.
+
+Kod, tablo ve sütun adları İngilizce yazılır: sektördeki depoların çoğu böyle, sen de projende böyle yap. Veri değerleri Türkçe olabilir.
 
 ## Erişilebilirlik
 
-Her haftanın slaytları, o haftanın klasöründe **metin sürümü** olarak da yayımlanır (`slides-text.md`, henüz sadece Hafta 3'te var, diğer haftalar eklendikçe genişleyecek). Ekran okuyucuyla okunabilir, tarayıcıda büyütülebilir. Görme, işitme ya da başka bir nedenle farklı bir düzenlemeye ihtiyacın varsa derse gelmeden bana yazman yeterli, birlikte planlarız.
+Her haftanın slaytları, o haftanın klasöründe **metin sürümü** olarak da yayımlanır (`slides-text.md`). Ekran okuyucuyla okunabilir, tarayıcıda büyütülebilir. Görme, işitme ya da başka bir nedenle farklı bir düzenlemeye ihtiyacın varsa derse gelmeden bana yazman yeterli, birlikte planlarız.

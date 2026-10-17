@@ -16,6 +16,12 @@ Durum: Yayında
 - Bir listenin toplamını, ortalamasını ve en büyük değerini döngüyle (hazır fonksiyon kullanmadan) hesaplayabilirsin
 - Neden `for` döngüsünün aslında "hangi veride, hangi koşulla, ne yapılacağını" söylemek olduğunu fark edebilirsin, bu fark haftaya SQL'e geçişin zeminidir
 
+## Bu haftanın dosyaları
+
+- [ders-notu.md](ders-notu.md) — haftanın ders notu, örneklerle
+- [lab.md](lab.md) — laboratuvar föyü
+- [cozumler.py](cozumler.py) — çözüm anahtarı (lab sonrası)
+
 ## Anahtar terimler
 
 | English | Türkçe |
@@ -24,10 +30,13 @@ Durum: Yayında
 | list / array | liste / dizi |
 | filter | filtreleme |
 | iteration | yineleme (döngünün her bir adımı) |
+| accumulator | biriktirici (toplamı tutan değişken) |
+
+Tüm terimler: [GLOSSARY.md](../../GLOSSARY.md)
 
 ## Laboratuvar
 
-Örnek bir robot filosu listesi üzerinde (`[{"name": "r1", "battery": 18}, ...]`) `for` ve `if` ile bataryası düşük robotları bulma, ortalama batarya seviyesini hesaplama. Bu örnek Hafta 3'te SQL'e birebir taşınacak.
+Örnek bir robot filosu listesi üzerinde (`[{"name": "Kartal-01", "battery_level": 18}, ...]`) `for` ve `if` ile bataryası düşük robotları bulma, ortalama batarya seviyesini hesaplama. Bu örnek Hafta 4 ve 5'te SQL'e birebir taşınacak. Föy: [lab.md](lab.md).
 
 ## Okuma
 
@@ -39,4 +48,4 @@ Yok, bu hafta hazırlık haftası.
 
 ## Ödev
 
-Bu haftanın ödevi ayrıca eklenecek.
+[lab.md](lab.md) içindeki alıştırmaları tamamla. Teslim biçimi derste duyurulur.

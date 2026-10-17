@@ -1,40 +1,46 @@
-# Hafta 12: Alt sorgular, görünümler, text-to-SQL
+# Hafta 12: Final — jüri önünde sunumlar
 
 Durum: Yakında
 
-## Bu hafta ne işliyoruz
+## Bu hafta ne oluyor
 
-- Skaler alt sorgular, `IN` ve `EXISTS` ile alt sorgular, korelasyonlu alt sorgular
-- CTE (`WITH`) ile sorguyu adımlara bölme
-- `VIEW` oluşturma ve materialized view
-- Text-to-SQL: bir LLM'e şema vermek, tipik hata türleri, üretilen SQL'i test sorgularıyla doğrulamak
+Dönemin son haftası. Her öğrenci projesini sektör jürisi önünde **5 dakikada** sunar. Jüri gün boyu salonda kalır ve herkesi dinler, önceden eleme yoktur.
 
-## Hafta sonunda yapabileceklerin
+## Teslim içeriği
 
-- Çok adımlı bir analizi okunabilir sorgulara bölebilirsin
-- Kendi projen için en az iki raporlama görünümü yazabilirsin
-- Bir LLM'in ürettiği SQL'i çalıştırmadan önce şüpheyle okuyabilirsin
+Projen kendi GitHub reponda, şunlar eksiksiz olacak:
 
-## Anahtar terimler
+- **Şema:** migration dosyaları (`CREATE TABLE`, kısıtlar, indeksler)
+- **Veri:** gerçek kaynağından yüklenmiş veri ve yükleme adımları
+- **ERD:** Mermaid ile çizilmiş, README içinde görünen
+- **Normalizasyon notu:** hangi tabloları neden böldün
+- **Analiz sorguları:** en az 10 sorgu (JOIN, gruplama, alt sorgu içeren)
+- **Görünümler:** en az 2 view
+- **İndeks:** en az 1 indeks ve gerekçesi (`EXPLAIN ANALYZE` çıktısıyla)
+- **Güvenlik:** en az 1 rol tanımı
+- **YZ bileşeni:** `jsonb`, pgvector veya text-to-SQL değerlendirmesi
+- **README:** problem, ERD, sorgu örnekleri, 90 saniyelik demo videosu veya GIF, "ne öğrendim" bölümü
 
-| English | Türkçe |
-|---|---|
-| subquery / CTE | alt sorgu / ortak tablo ifadesi |
-| view | görünüm |
-| text-to-SQL | metinden SQL üretimi |
+## Sunum
 
-## Laboratuvar
+- Süre: 5 dakika
+- Akış önerisi: problem (1 dk) → şema ve ERD (1,5 dk) → canlı sorgu (1,5 dk) → YZ bileşeni ve öğrendiklerin (1 dk)
+- Demo videon README'de hazır olacağı için canlı oturumda teknik aksaklıkla vakit kaybetmezsin
 
-Aynı soruyu alt sorgu ve CTE ile iki şekilde çözme. Bir LLM'e kendi şemanı verip beş soru sordurup sonuçları doğru cevaplarla karşılaştırma.
+## Hazırlık ipuçları
 
-## Okuma
-
-PostgreSQL, WITH Queries (CTE): https://www.postgresql.org/docs/current/queries-with.html , Views: https://www.postgresql.org/docs/current/tutorial-views.html
+- Provanı Hafta 11 laboratuvarında yap
+- Jüri sektörden geliyor: teknik detaydan çok **hangi problemi çözdüğünü** anlat
+- Bir soruyu bilmiyorsan "bilmiyorum, şöyle araştırırdım" demek, uydurmaktan iyidir
 
 ## Kilometre taşı
 
-Görünümler ve YZ bileşeni
+Ana proje teslimi
 
-## Ödev
+## Ağırlık
 
-Bu haftanın ödevi ayrıca eklenecek.
+Dönem notunun %40'ı. Ayrıntı: [SYLLABUS.md](../../SYLLABUS.md)
+
+## Sonrası
+
+Projen artık portfolyonda. LinkedIn'de paylaşmak gönüllüdür ve notu etkilemez, ama bir işe başvururken "şunu yaptım" diyebileceğin somut bir şeyin olması işe yarar.

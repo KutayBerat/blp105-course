@@ -4,27 +4,41 @@
 
 Excel'de tuttuğun bir tablo bir yere kadar gider: birkaç kullanıcı, birkaç bin satır, tek bir dosya. Gerçek bir ürün, bir chatbot'un konuşma geçmişi, bir filonun sensör verisi, bir hastanenin kayıt sistemi, aynı anda birden fazla kişinin okuyup yazdığı, milyonlarca satırlık, hatasız kalması gereken bir veri katmanı ister. Bu ders sana o katmanı kurmayı öğretir: PostgreSQL ile.
 
-Dönem boyunca tek bir soruyu cevaplarsın: bu veriye nasıl güvenilir bir şekilde soru sorarım? İlk haftalarda hazır bir veritabanını sorgulayarak başlarız (SELECT, WHERE, JOIN, GROUP BY). Tasarım ve modelleme (E-R diyagramı, normalizasyon, DDL) sorgu deneyiminden sonra gelir, çünkü neyi modelleyeceğini önce ne sorduğunu görmeden bilemezsin.
+Dönem boyunca tek bir soruyu cevaplarsın: bu veriye nasıl güvenilir bir şekilde soru sorarım? İlk haftalarda hazır bir veritabanını sorgulayarak başlarız (SELECT, WHERE, GROUP BY, JOIN). Tasarım ve modelleme (E-R diyagramı, normalizasyon, DDL) sorgu deneyiminden sonra gelir, çünkü neyi modelleyeceğini önce ne sorduğunu görmeden bilemezsin.
 
 ## Öğrenme çıktıları
 
 Bu dersi tamamlayan öğrenci:
 
 1. Bir VTYS'nin hangi problemleri çözdüğünü ve PostgreSQL'in istemci-sunucu mimarisini açıklar.
-2. SELECT, WHERE, JOIN (INNER/LEFT/self-join), GROUP BY, alt sorgu, CTE ve pencere fonksiyonuyla çok adımlı analiz sorguları yazar.
-3. Bir problem senaryosundan E-R modeli çıkarır, normalize edilmiş (1NF-3NF) bir ilişkisel şemaya dönüştürür ve `CREATE TABLE` ile hayata geçirir.
-4. INSERT/UPDATE/DELETE, transaction ve UPSERT kullanarak veri bütünlüğünü bozmadan veri taşır.
-5. `EXPLAIN ANALYZE` çıktısını okur, doğru yere indeks koyar.
-6. En az yetki ilkesine göre rol, `GRANT`/`REVOKE` ve Row-Level Security tasarlar, SQL injection riskini açıklar.
-7. `jsonb` ile yarı yapılandırılmış veri saklar, pgvector ile anlamsal arama kurar ya da bir LLM'in ürettiği SQL'i şemasına karşı doğrular.
-8. Çalışmasını README, ERD, demo videosu ve canlı bir savunmayla profesyonel biçimde sunar.
-9. Git/GitHub ile sürüm kontrollü, tekrar üretilebilir bir veritabanı projesi yönetir.
+2. SELECT, WHERE, GROUP BY, JOIN (INNER/LEFT/self-join) ve alt sorguyla çok adımlı analiz sorguları yazar.
+3. NULL'ın sorgu sonuçlarını nasıl etkilediğini açıklar ve eksik veriyi bilinçli olarak ele alır.
+4. Bir problem senaryosundan E-R modeli çıkarır, normalize edilmiş (1NF-3NF) bir ilişkisel şemaya dönüştürür ve `CREATE TABLE` ile hayata geçirir.
+5. INSERT/UPDATE/DELETE, transaction ve UPSERT kullanarak veri bütünlüğünü bozmadan veri taşır.
+6. Görünüm (view) tanımlar, indeksin ne zaman işe yaradığını açıklar.
+7. En az yetki ilkesine göre rol, `GRANT`/`REVOKE` tasarlar, SQL injection riskini açıklar.
+8. Projesine bir yapay zeka bileşeni ekler: `jsonb` ile yarı yapılandırılmış veri, pgvector ile anlamsal arama ya da bir LLM'in ürettiği SQL'i şemasına karşı doğrulama.
+9. Çalışmasını README, ERD, demo videosu ve canlı bir savunmayla profesyonel biçimde sunar.
+10. Git/GitHub ile sürüm kontrollü, tekrar üretilebilir bir veritabanı projesi yönetir.
 
 Bu çıktılar araçtan bağımsız yazıldı. PostgreSQL bu dönemki aracımız, ama öğrendiğin kavramlar (ilişkisel model, normalizasyon, transaction, indeks, en az yetki ilkesi) her VTYS'de geçerli.
 
 ## Ders yapısı
 
-Haftada 2 saat ders ve 2 saat laboratuvar, 14 hafta. Laboratuvar dersin devamı olarak aynı hafta içinde uygulamadır. İlk iki hafta algoritmik düşünme ve Python'la for/if tekrarına ayrılır, veritabanı konuları Hafta 3'ten başlar.
+Haftada 2 saat ders ve 2 saat laboratuvar, **12 hafta**. Laboratuvar dersin devamı olarak aynı hafta içinde uygulamadır. İlk iki hafta algoritmik düşünme ve Python'la for/if tekrarına ayrılır, veritabanı konuları Hafta 3'ten başlar.
+
+Haftalık konu listesi için [README.md](README.md) tablosuna bak.
+
+### Dönem akışı
+
+| Haftalar | Aşama | Ne yapıyorsun |
+|---|---|---|
+| 1-2 | Hazırlık | Algoritmik düşünme, döngü ve koşul |
+| 3-6 | Sorgulama | Hazır bir veritabanına soru sorma: SELECT, GROUP BY, JOIN |
+| 7 | Tasarım | Kendi senaryonun E-R modeli ve normalizasyonu |
+| 8 | Ara değerlendirme | Mini proje sunumu |
+| 9-11 | Kurma | Şemayı kurma, veriyi taşıma, görünüm, güvenlik, YZ bileşeni |
+| 12 | Teslim | Jüri önünde final sunumu |
 
 ## Değerlendirme
 

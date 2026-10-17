@@ -16,6 +16,12 @@ Durum: Yayında
 - Aynı algoritmayı sözde kod, akış şeması ve Python koduyla üç farklı şekilde ifade edebilirsin
 - Basit bir `if/elif/else` yapısı yazıp elle çalıştırıp sonucunu tahmin edebilirsin
 
+## Bu haftanın dosyaları
+
+- [ders-notu.md](ders-notu.md) — haftanın ders notu, örneklerle
+- [lab.md](lab.md) — laboratuvar föyü
+- [cozumler.py](cozumler.py) — çözüm anahtarı (lab sonrası)
+
 ## Anahtar terimler
 
 | English | Türkçe |
@@ -24,10 +30,13 @@ Durum: Yayında
 | pseudocode / flowchart | sözde kod / akış şeması |
 | variable / data type | değişken / veri tipi |
 | conditional statement | koşullu ifade |
+| trace table | iz sürme tablosu |
+
+Tüm terimler: [GLOSSARY.md](../../GLOSSARY.md)
 
 ## Laboratuvar
 
-GitHub hesabı açma ve e-posta doğrulama, iki adımlı doğrulamayı (2FA) açma. Python ile birkaç küçük `if/else` alıştırması: not harfe çevirme, pozitif-negatif-sıfır ayrımı, üç sayının en büyüğünü bulma. Adım adım kurulum: [SETUP.md](../../SETUP.md).
+GitHub hesabı açma ve e-posta doğrulama, iki adımlı doğrulamayı (2FA) açma. Python ile birkaç küçük `if/else` alıştırması. Adım adım kurulum: [SETUP.md](../../SETUP.md), föy: [lab.md](lab.md).
 
 ## Okuma
 
@@ -39,4 +48,4 @@ GitHub hesabı
 
 ## Ödev
 
-Bu haftanın ödevi ayrıca eklenecek.
+[lab.md](lab.md) içindeki alıştırmaları tamamla. Teslim biçimi derste duyurulur.

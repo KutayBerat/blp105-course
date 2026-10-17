@@ -1,36 +1,63 @@
-# Hafta 10: DML ve transaction
+# Hafta 10: DML, transaction ve alt sorgular
 
 Durum: Yakında
 
+> Şemayı kurdun, şimdi içini dolduruyorsun. Bir de sorguları adım adım yazmayı öğreniyorsun.
+
 ## Bu hafta ne işliyoruz
 
+**Veri işleme (DML)**
+
 - `INSERT`: tek satır, çok satır, `INSERT ... SELECT`, `RETURNING`
-- `UPDATE` ve `DELETE`, güvenli alışkanlık: önce aynı WHERE ile SELECT, sonra DML
+- `UPDATE` ve `DELETE`
+- Güvenli DML alışkanlığı: önce aynı `WHERE` ile `SELECT`, sonra DML
 - UPSERT: `INSERT ... ON CONFLICT`
-- Transaction: `BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`
+- CSV'den toplu veri yükleme: `\copy`
+- Seed verisi ile migration ayrımı
+
+**Transaction**
+
+- `BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`
 - ACID özellikleri
+
+**Alt sorgular**
+
+- Skaler alt sorgular, `IN` ve `EXISTS` ile alt sorgular
+- CTE (`WITH`) ile sorguyu adımlara bölmek
 
 ## Hafta sonunda yapabileceklerin
 
-- Veriyi güvenli şekilde ekleyebilir, güncelleyebilir, silebilirsin
-- Bilerek hatalı bir işlemi `ROLLBACK` ile geri alabilirsin
-- ACID özelliklerinin her birini bir örnekle açıklayabilirsin
+- Veriyi güvenli şekilde ekler, günceller ve silersin
+- Yanlış giden bir işlemi `ROLLBACK` ile geri alabilirsin
+- Ham CSV'ni kendi şemana taşıyabilirsin
+- Çok adımlı bir analizi CTE ile okunur parçalara bölebilirsin
 
 ## Anahtar terimler
 
 | English | Türkçe |
 |---|---|
+| DML (data manipulation language) | veri işleme dili |
 | insert / update / delete | ekleme / güncelleme / silme |
-| transaction | işlem |
-| commit / rollback | onaylama / geri alma |
+| upsert | varsa güncelle yoksa ekle |
+| transaction / commit / rollback | işlem / onaylama / geri alma |
+| ACID | atomiklik, tutarlılık, yalıtım, kalıcılık |
+| subquery | alt sorgu |
+| CTE (common table expression) | ortak tablo ifadesi |
+
+Tüm terimler: [GLOSSARY.md](../../GLOSSARY.md)
 
 ## Laboratuvar
 
-Bilerek hatalı bir `UPDATE` çalıştırıp `ROLLBACK` ile kurtarma. Kendi projene gerçekçi seed verisi yükleme.
+Bilerek hatalı bir `UPDATE` çalıştırıp `ROLLBACK` ile kurtarma. Kendi projene gerçek veriyi `\copy` ile yükleme.
 
 ## Okuma
 
-PostgreSQL, Data Manipulation (DML): https://www.postgresql.org/docs/current/dml.html , Transactions: https://www.postgresql.org/docs/current/tutorial-transactions.html
+- PostgreSQL, Data Manipulation: https://www.postgresql.org/docs/current/dml.html
+- PostgreSQL Tutorial, Transactions: https://www.postgresql.org/docs/current/tutorial-transactions.html
+
+## Ek kaynaklar
+
+PostgreSQL, WITH Queries (CTE): https://www.postgresql.org/docs/current/queries-with.html
 
 ## Kilometre taşı
 
