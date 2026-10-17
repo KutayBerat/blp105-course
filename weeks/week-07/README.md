@@ -69,9 +69,9 @@ ERD ve normalizasyon planı
 
 ## Ödev
 
-**Ödev 4 — ERD ve normalizasyon** (100 puan). Yönerge: [odev.md](odev.md)
+**Ödev 3 — ERD ve normalizasyon** (100 puan). Yönerge: [odev.md](odev.md)
 
-- PR ile teslim: dal `odev-04`, reviewer **gizemturker**
+- PR ile teslim: dal `odev-03`, reviewer **gizemturker**
 - **Kâğıt rapor Hafta 8 dersinde elden teslim edilir**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

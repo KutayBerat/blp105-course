@@ -75,7 +75,7 @@ git pull
 git checkout -b odev-01
 ```
 
-Dal adı her zaman `odev-NN` biçiminde: `odev-01`, `odev-02`, `odev-07`.
+Dal adı her zaman `odev-NN` biçiminde: `odev-01`, `odev-02`, `odev-06`.
 
 ### Adım 2: Çalış ve commit at
 
@@ -127,18 +127,18 @@ Bir sayfa, en fazla iki. Elle doldurulacak alanlar var, bilgisayarda doldurup ya
 
 ## 4. Ödev takvimi
 
-| Ödev | Hafta | Konu | PR son tarihi | Rapor teslimi |
+| Ödev | Kapsam | Konu | PR son tarihi | Rapor teslimi |
 |---|---|---|---|---|
-| Ödev 0 | 3 | Repo kurulumu ve senaryo kartı | [tarih] | — (notlandırılmaz) |
-| **Ödev 1** | 4 | SELECT ve WHERE | [tarih] | Hafta 5 dersinde |
-| **Ödev 2** | 5 | Gruplama ve NULL | [tarih] | Hafta 6 dersinde |
-| **Ödev 3** | 6 | JOIN | [tarih] | Hafta 7 dersinde |
-| **Ödev 4** | 7 | ERD ve normalizasyon | [tarih] | Hafta 8 dersinde |
-| — | 8 | Ara sınav haftası, ödev yok | | |
-| **Ödev 5** | 9 | Şema kurma (DDL) | [tarih] | Hafta 10 dersinde |
-| **Ödev 6** | 10 | Veriyi taşıma (DML) | [tarih] | Hafta 11 dersinde |
-| **Ödev 7** | 11 | Görünüm, güvenlik, YZ bileşeni | [tarih] | Hafta 12 dersinde |
-| Final | 12 | Ana proje ve sunum | [tarih] | Sunum günü |
+| **Ödev 1** | Hafta 1-5 | Kurulum, SELECT/WHERE, gruplama ve NULL | [tarih] | [tarih] dersinde |
+| **Ödev 2** | Hafta 6 | JOIN | [tarih] | Hafta 7 dersinde |
+| **Ödev 3** | Hafta 7 | ERD ve normalizasyon | [tarih] | Hafta 8 dersinde |
+| — | Hafta 8 | Ara sınav haftası, ödev yok | | |
+| **Ödev 4** | Hafta 9 | Şema kurma (DDL) | [tarih] | Hafta 10 dersinde |
+| **Ödev 5** | Hafta 10 | Veriyi taşıma (DML) | [tarih] | Hafta 11 dersinde |
+| **Ödev 6** | Hafta 11 | Görünüm, güvenlik, YZ bileşeni | [tarih] | Hafta 12 dersinde |
+| Final | Hafta 12 | Ana proje ve sunum | [tarih] | Sunum günü |
+
+**Ödev 1 dönemin ilk ödevi ve beş haftayı birden kapsıyor.** İlk beş hafta kurulum, algoritmik düşünme ve tek tablolu sorgularla geçti; bu ödev hepsini tek teslimde topluyor. Depo kurulumu da onun Bölüm 0'ı.
 
 **Kural:** PR, bir sonraki dersin başlangıcından **en geç 24 saat önce** açılmış olmalı. Raporu da o derste getirirsin.
 
@@ -148,9 +148,9 @@ Tarihler dönem başında bu tabloya işlenir ve derste duyurulur.
 
 ## 5. Notlandırma
 
-Yedi notlu ödevin ortalaması dönem notunun **%30'unu** oluşturur (SYLLABUS.md'deki "Proje" bileşeni).
+Altı ödevin ortalaması dönem notunun **%30'unu** oluşturur (SYLLABUS.md'deki "Proje" bileşeni).
 
-**En düşük bir ödev notun atılır.** Yani yedi ödevin en iyi altısı sayılır. Hastalık, yoğunluk, kötü bir hafta: bir kere olur. Ama bunu baştan harcamamanı öneririm.
+**En düşük bir ödev notun atılır.** Yani altı ödevin en iyi beşi sayılır. Hastalık, yoğunluk, kötü bir hafta: bir kere olur. Ama bunu baştan harcamamanı öneririm.
 
 Her ödev 100 puan üzerinden, ayrıntılı ölçütler: **[RUBRIK.md](RUBRIK.md)**
 

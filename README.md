@@ -18,7 +18,7 @@ Her hafta klasöründe şunları bulursun:
 | `README.md` | Haftanın özeti: konular, kazanımlar, terimler, okuma, ödev |
 | `ders-notu.md` | Haftanın ders notu, örneklerle ve çalıştırılabilir sorgularla |
 | `lab.md` | Laboratuvar föyü, kolaydan zora sorular |
-| `cozumler.sql` / `cozumler.py` | Çözüm anahtarı, lab sonrası yayımlanır |
+| `odev.md` | Haftanın ödevi, varsa |
 | `odev.md` | O haftanın ödev yönergesi |
 | `slides-text.md` | Slaytların metin sürümü (ekran okuyucu ve büyütme dostu) |
 

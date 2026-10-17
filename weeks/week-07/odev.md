@@ -1,4 +1,4 @@
-# Ödev 4 — ERD ve normalizasyon
+# Ödev 3 — ERD ve normalizasyon
 
 **Hafta 7 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 8 dersinde (ara sınav haftası)**
 
@@ -57,8 +57,8 @@ Raporunda iki soruyu cevapla:
 |---|---|
 | ERD | `docs/erd.md` |
 | Normalizasyon raporu | `docs/normalizasyon.md` |
-| Rapor (dijital) | `odevler/odev-04/rapor.md` |
-| PR | Dal `odev-04`, reviewer: gizemturker |
+| Rapor (dijital) | `odevler/odev-03/rapor.md` |
+| PR | Dal `odev-03`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 8 dersinde elden** |
 
 ## Değerlendirme

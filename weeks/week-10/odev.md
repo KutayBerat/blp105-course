@@ -1,4 +1,4 @@
-# Ödev 6 — Veriyi taşıma (DML)
+# Ödev 5 — Veriyi taşıma (DML)
 
 **Hafta 10 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 11 dersinde**
 
@@ -23,7 +23,7 @@ Dosyan tekrar çalıştırılabilir olsun: baştan `TRUNCATE` ya da `DELETE` ile
 
 ### Bölüm 2 — Güvenli DML alışkanlığı (zorunlu)
 
-`odevler/odev-06/dml-denemeleri.sql` dosyasında şunları göster:
+`odevler/odev-05/dml-denemeleri.sql` dosyasında şunları göster:
 
 - [ ] **Önce SELECT, sonra UPDATE:** bir güncelleme yapmadan önce aynı `WHERE` ile `SELECT` çalıştır, kaç satır etkileneceğini gör, sonra `UPDATE` yap
 - [ ] **Transaction ile kurtarma:** `BEGIN` ile başla, bilerek yanlış bir `UPDATE` çalıştır, `SELECT` ile hasarı gör, `ROLLBACK` ile geri al, tekrar `SELECT` ile düzeldiğini göster
@@ -59,10 +59,10 @@ Artık kendi verin veritabanında. Hafta 3'te yazdığın beş Türkçe sorudan 
 | Ne | Nerede |
 |---|---|
 | Yükleme dosyaları | `data/seed/` |
-| DML denemeleri | `odevler/odev-06/dml-denemeleri.sql` |
+| DML denemeleri | `odevler/odev-05/dml-denemeleri.sql` |
 | Analiz sorguları | `queries/analiz-01.sql` |
-| Rapor (dijital) | `odevler/odev-06/rapor.md` |
-| PR | Dal `odev-06`, reviewer: gizemturker |
+| Rapor (dijital) | `odevler/odev-05/rapor.md` |
+| PR | Dal `odev-05`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 11 dersinde elden** |
 
 ## Raporda özellikle cevaplamanı istediklerim

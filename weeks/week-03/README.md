@@ -53,7 +53,9 @@ Kura, repo, senaryo kartı
 
 ## Ödev
 
-**Ödev 0 — Repo kurulumu ve senaryo kartı** (notlandırılmaz). Yönerge: [odev.md](odev.md)
+Bu haftanın işi **Ödev 1**'in içinde: depo kurulumu (Bölüm 0) ve senaryo kartı (Bölüm 3).
+
+Yönerge: [../week-05/odev.md](../week-05/odev.md)
 
 Teslim kuralları: [ODEVLER.md](../../ODEVLER.md)
 

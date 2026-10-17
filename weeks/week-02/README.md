@@ -20,7 +20,6 @@ Durum: Yayında
 
 - [ders-notu.md](ders-notu.md) — haftanın ders notu, örneklerle
 - [lab.md](lab.md) — laboratuvar föyü
-- [cozumler.py](cozumler.py) — çözüm anahtarı (lab sonrası)
 
 ## Anahtar terimler
 

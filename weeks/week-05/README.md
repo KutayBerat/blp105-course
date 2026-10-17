@@ -22,7 +22,6 @@ Durum: Yayında
 
 - [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
 - [lab.md](lab.md) — laboratuvar föyü, 15 soru
-- [cozumler.sql](cozumler.sql) — çözüm anahtarı (lab sonrası)
 
 Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir ve tarayıcıda büyütülebilir. Slayt sırasına göre ayrı bir `slides-text.md` slaytlar güncellendiğinde eklenecek.
 
@@ -62,9 +61,10 @@ PostgreSQL Tutorial, Aggregate Functions: https://www.postgresql.org/docs/curren
 
 ## Ödev
 
-**Ödev 2 — Gruplama ve NULL** (100 puan). Yönerge: [odev.md](odev.md)
+**Ödev 1 — Haftalar 1-5: Temeller** (100 puan, dönemin ilk ödevi). Yönerge: [odev.md](odev.md)
 
-- PR ile teslim: dal `odev-02`, reviewer **gizemturker**
-- **Kâğıt rapor Hafta 6 dersinde elden teslim edilir**
+- Kapsam: kurulum, SELECT/WHERE (Hafta 4 labı) ve gruplama/NULL (bu haftanın labı), toplam 30 soru
+- PR ile teslim: dal `odev-01`, reviewer **gizemturker**
+- **Kâğıt rapor derste elden teslim edilir**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

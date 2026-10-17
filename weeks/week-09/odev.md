@@ -1,4 +1,4 @@
-# Ödev 5 — Şema kurma (DDL)
+# Ödev 4 — Şema kurma (DDL)
 
 **Hafta 9 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 10 dersinde**
 
@@ -31,7 +31,7 @@ psql -d benim_projem -f migrations/001_create_tables.sql
 
 ### Bölüm 2 — Kısıt denemeleri (zorunlu)
 
-`odevler/odev-05/kisit-denemeleri.sql` dosyasında, kendi şemanı **bilerek bozmaya çalış.** Her denemenin altına aldığın hata mesajını yapıştır.
+`odevler/odev-04/kisit-denemeleri.sql` dosyasında, kendi şemanı **bilerek bozmaya çalış.** Her denemenin altına aldığın hata mesajını yapıştır.
 
 En az dört deneme:
 
@@ -58,9 +58,9 @@ Raporunda: yabancı anahtarlarında hangi silme davranışını seçtin ve neden
 | Ne | Nerede |
 |---|---|
 | Şema | `migrations/001_create_tables.sql` |
-| Kısıt denemeleri | `odevler/odev-05/kisit-denemeleri.sql` |
-| Rapor (dijital) | `odevler/odev-05/rapor.md` |
-| PR | Dal `odev-05`, reviewer: gizemturker |
+| Kısıt denemeleri | `odevler/odev-04/kisit-denemeleri.sql` |
+| Rapor (dijital) | `odevler/odev-04/rapor.md` |
+| PR | Dal `odev-04`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 10 dersinde elden** |
 
 ## Değerlendirme

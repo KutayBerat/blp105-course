@@ -1,4 +1,4 @@
-# Ödev 3 — JOIN
+# Ödev 2 — JOIN
 
 **Hafta 6 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 7 dersinde**
 
@@ -10,7 +10,7 @@
 
 ### Bölüm 1 — Lab soruları (zorunlu)
 
-[lab.md](lab.md) dosyasındaki **15 soruyu** çöz, `odevler/odev-03/cozumler.sql` dosyasına yaz. Geçen haftaki gibi her sorgunun altına yorum cümlesi.
+[lab.md](lab.md) dosyasındaki **15 soruyu** çöz, `odevler/odev-02/cozumler.sql` dosyasına yaz. Geçen haftaki gibi her sorgunun altına yorum cümlesi.
 
 ### Bölüm 2 — Kendi verini ikiye böl (zorunlu)
 
@@ -29,16 +29,16 @@ Son soru Hafta 7'de ERD çizerken işine yarayacak.
 ### Bölüm 3 — Bonus (isteğe bağlı)
 
 - Diğer programın sorularını da çöz
-- [SQL Murder Mystery](https://mystery.knightlab.com/) oyununu bitir, çözüm sorgunu `odevler/odev-03/bonus-mystery.sql` içine koy
+- [SQL Murder Mystery](https://mystery.knightlab.com/) oyununu bitir, çözüm sorgunu `odevler/odev-02/bonus-mystery.sql` içine koy
 
 ## Teslim
 
 | Ne | Nerede |
 |---|---|
-| Sorgular (yorumlu) | `odevler/odev-03/cozumler.sql` |
-| Rapor (dijital) | `odevler/odev-03/rapor.md` |
+| Sorgular (yorumlu) | `odevler/odev-02/cozumler.sql` |
+| Rapor (dijital) | `odevler/odev-02/rapor.md` |
 | Tablolara ayırma taslağı | `SCENARIO.md` içinde |
-| PR | Dal `odev-03`, reviewer: gizemturker |
+| PR | Dal `odev-02`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 7 dersinde elden** |
 
 ## Raporda özellikle cevaplamanı istediklerim

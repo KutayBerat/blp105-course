@@ -23,7 +23,6 @@ Durum: Yayında
 
 - [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
 - [lab.md](lab.md) — laboratuvar föyü, 15 soru
-- [cozumler.sql](cozumler.sql) — çözüm anahtarı (lab sonrası)
 
 Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir ve tarayıcıda büyütülebilir. Slayt sırasına göre ayrı bir `slides-text.md` slaytlar güncellendiğinde eklenecek.
 
@@ -73,9 +72,11 @@ Gerçek veri kaynağı, ham CSV
 
 ## Ödev
 
-**Ödev 1 — SELECT ve WHERE** (100 puan). Yönerge: [odev.md](odev.md)
+Bu haftanın lab soruları **Ödev 1**'in Bölüm 1'i.
+
+Yönerge: [../week-05/odev.md](../week-05/odev.md)
 
 - PR ile teslim: dal `odev-01`, reviewer **gizemturker**
-- **Kâğıt rapor Hafta 5 dersinde elden teslim edilir**
+- **Kâğıt rapor derste elden teslim edilir**
 
 Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

@@ -24,8 +24,7 @@ Durum: Yayında
 
 - [ders-notu.md](ders-notu.md) — haftanın ders notu, çalıştırılabilir örneklerle
 - [lab.md](lab.md) — laboratuvar föyü, 15 soru
-- [cozumler.sql](cozumler.sql) — çözüm anahtarı (lab sonrası)
-- [odev.md](odev.md) — **Ödev 3** yönergesi
+- [odev.md](odev.md) — **Ödev 2** yönergesi
 
 Bu haftanın **metin sürümü** `ders-notu.md` dosyasıdır: slaytlardaki her konuyu, her sorguyu ve her sonucu içerir, ekran okuyucuyla okunabilir.
 
@@ -82,6 +81,6 @@ JOIN sorguları
 
 ## Ödev
 
-**Ödev 3 — JOIN.** Yönerge: [odev.md](odev.md)
+**Ödev 2 — JOIN.** Yönerge: [odev.md](odev.md)
 
 PR ile teslim + kâğıt rapor derste. Kurallar: [ODEVLER.md](../../ODEVLER.md) · Rubrik: [RUBRIK.md](../../RUBRIK.md)

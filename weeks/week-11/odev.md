@@ -1,4 +1,4 @@
-# Ödev 7 — Görünüm, güvenlik ve YZ bileşeni
+# Ödev 6 — Görünüm, güvenlik ve YZ bileşeni
 
 **Hafta 11 · 100 puan · PR son tarihi: [tarih] · Rapor teslimi: Hafta 12 dersinde (final günü)**
 
@@ -64,7 +64,7 @@ Raporunda: bu role neden sadece bu yetkileri verdin? En az yetki ilkesini kendi 
 |---|---|---|---|---|
 | | | | | |
 
-Bu tabloyu `odevler/odev-07/text-to-sql.md` içine koy. En ilginç kısmı: **çalışan ama yanlış** sorgular. Varsa onları ayrıca anlat.
+Bu tabloyu `odevler/odev-06/text-to-sql.md` içine koy. En ilginç kısmı: **çalışan ama yanlış** sorgular. Varsa onları ayrıca anlat.
 
 ## Teslim
 
@@ -73,9 +73,9 @@ Bu tabloyu `odevler/odev-07/text-to-sql.md` içine koy. En ilginç kısmı: **ç
 | Görünümler | `migrations/002_views.sql` |
 | İndeks ve gerekçe | `migrations/003_indexes.sql` |
 | Roller | `migrations/004_roles.sql` |
-| YZ bileşeni | `odevler/odev-07/` |
-| Rapor (dijital) | `odevler/odev-07/rapor.md` |
-| PR | Dal `odev-07`, reviewer: gizemturker |
+| YZ bileşeni | `odevler/odev-06/` |
+| Rapor (dijital) | `odevler/odev-06/rapor.md` |
+| PR | Dal `odev-06`, reviewer: gizemturker |
 | **Rapor (kâğıt)** | **Hafta 12, final günü elden** |
 
 ## Değerlendirme
