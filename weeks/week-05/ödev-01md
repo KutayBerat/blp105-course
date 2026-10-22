@@ -1,18 +1,10 @@
-SORU1.1-CEVAP
+**SORU1.1-CEVAP**
 
 --i--       --Sayı--       --Çift mi?--       --Total--       --Result--
-i = 0          4	           Evet	              4  
-i = 1          7	           Hayır	          4	              7
-i = 2	       2	           Evet	              6	              7
-i = 3	       9	           Hayır	          6	              7, 9|
-i = 4	       5	           Hayır	          6	              7, 9, 5
-i = 5	       1	           Hayır	          6	              7, 9, 5, 1
-i = 6	       8	           Evet	             14	              7, 9, 5, 1
-Döngü Adımı (`i`)	İncelenen Sayı	Çift mi?	Güncel `total`	Güncel `result` Listesi
-i = 0	4	Evet	4	`\[]`
-i = 1	7	Hayır	4	`\[7]`
-i = 2	2	Evet	6	`\[7]`
-i = 3	9	Hayır	6	`\[7, 9]`
-i = 4	5	Hayır	6	`\[7, 9, 5]`
-i = 5	1	Hayır	6	`\[7, 9, 5, 1]`
-i = 6	8	Evet	14	`\[7, 9, 5, 1]`
+i = 0          4	            Evet	              4  
+i = 1          7	            Hayır	              4	              7
+i = 2	         2	            Evet	              6	              7
+i = 3	         9	            Hayır	              6	              7, 9|
+i = 4	         5	            Hayır	              6	              7, 9, 5
+i = 5	         1	            Hayır	              6	              7, 9, 5, 1
+i = 6	         8	            Evet	              14	            7, 9, 5, 1
